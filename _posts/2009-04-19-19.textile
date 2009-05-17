@@ -1,0 +1,25 @@
+---
+title: GitHub Rebase 19
+layout: post
+---
+
+Sorry about the missed weeks here folks, hopefully I'll be back on track now. Let's get started!
+
+p=. !http://farm4.static.flickr.com/3618/3457406330_bb28f8b4c7.jpg!
+
+h3. Featured Project
+
+*"canary":http://github.com/macsphere/canary/tree/master* has generated quite a buzz on Twitter this past week since it's the latest client to go Open Source. This single column Cocoa app does much more than expected: filters to weed out the bad tweets, drag and drop "TwitPic":http://twitpic.com integration, easy ways to add/remove/block fellow addicts, and even more. The best part? You can hack on it and add whatever features you'd like! Check out more screenshots and info about what else it can do on its "awesome site.":http://www.canaryapp.com/ Fork away, "my twitters!":http://twitpic.com/3gexl
+
+h3. Notably New Projects
+
+*"github-cli":http://github.com/jsmits/github-cli/tree/master* is a new Python script to help you post to "GitHub issues":http://github.com/blog/411-github-issue-tracker via the "new API":http://develop.github.com. This seems it could be a decent competitor to the "GitHub RubyGem":http://github.com/defunkt/github-gem/tree/master, and I hope it sees some attention soon from the other Pythonistas hanging out on the site. The gem has a good head start, but I think the Python version could catch up. "A la commit!":http://i1.ytimg.com/vi/l6PBnxRt6no/hqdefault.jpg
+
+*"urlshrink":http://github.com/amazingsyco/url-shrink/tree/master* adds a handy shortcut for URL shortening system wide on OSX. It also provides a decent starter on how to add your own service into the mix. You could also integrate this into your own Cocoa or iPhone app and allow your users to shorten URLs there as well. This is definitely an awesome idea, and it would be neat to see it translated over to Windows and Linux as well. Get forking!
+
+*"gibberish":http://github.com/zzkt/gibberish/tree/master* is for those who like Scheme and "Jabber/XMPP":http://xmpp.org/. Ever wanted them both, together in one place and with "plenty of parentheses":http://xkcd.com/297/? Gibberish is your answer! On a more serious note, it seems like the basics are implemented so far but there's definitely more work to be done. If you've got an itch to hack on some Scheme that will actually do something practical, give this project a look.
+
+*"space-clock":http://github.com/mattdw/space-clock/tree/master* is pretty self-explanatory: it's a "sexy looking clock":http://github.com/mattdw/space-clock/blob/86e403381c2df68a5c608bb4ad56408857b9b685/clock-screenshot.png, written in Clojure. This is definitely a fun look into how this language works and how well it integrates with the JVM. It would be pretty interesting to see different styles implemented, so get coding!
+
+*"jtwitter":http://github.com/dryan/jtwitter/tree/master* is a "jQuery":http://jquery.com plugin to fetch updates from Twitter in a ridiculously easy fashion, as per the standard operating procedure with most of this awesome library's extensions. There's "plenty of options available":http://dryan.com/jtwitter to you already, so if you're thinking of putting your twitter stream (perhaps published via the newly featured project!) on your blog, don't waste your time with other methods when you can do it with literally one line of code. 
+

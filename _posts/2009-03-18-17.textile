@@ -1,0 +1,29 @@
+---
+title: GitHub Rebase 17
+layout: post
+---
+
+Rebase time is now! What, 5 notably new projects? How did that happen? I just found so much cool stuff this week I couldn't help myself. Enjoy!
+
+p=. "!http://farm2.static.flickr.com/1306/1045479638_ee2eb02d6b.jpg!":http://www.flickr.com/photos/dippy_duck/1045479638/
+
+h3. Featured Project
+
+*"fitnesse":http://github.com/unclebob/fitnesse* is a Java-based wiki that helps to make sure you build the right code for your clients. Based off of Ward Cunningham's "FIT":http://fit.c2.com/ framework, the project focuses collaborative editing of acceptance tests. (Just make sure you don't "misuse it":http://jamesshore.com/Blog/Five-Ways-to-Misuse-Fit.html!) Check out some of "unclebob's":http://github.com/unclebob "videos on how to use FitNesse":http://fitnesse.org/VideoTutorials, and definitely make sure to look at the project's "home page":http://fitnesse.org which has a wealth of information about agile methods, TDD, and how to use this project in your daily workflow. 
+
+h3. Notably New Projects
+
+*"yammer.net":http://github.com/kdavie/yammer.net* is pretty straightforward: a .NET wrapper for the "Yammer":https://www.yammer.com/ API. "kdavie":http://github.com/kdavie has done a great job with setting up an impressive "GitHub Page":http://kdavie.github.com/yammer.net/ for a project that is barely a week old. This is a great example for other projects to follow and shows how much having a simple "gh-pages":http://github.com/kdavie/yammer.net/tree/gh-pages branch can make your work really shine.
+
+*"polyeuler":http://github.com/lgastako/polyeuler* is "lgastako's":http://github.com/lgastako attempt to complete "Project Euler":http://projecteuler.net/ in as many programming languages as possible. Um, Project What?
+
+> Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
+If you're into languages and crazy math problems, give this a look. Maybe you could add your own favorite language in!
+
+*"wrongzoom":http://github.com/spicyj/wrongzoom* is a "SIMBL":http://www.culater.net/software/SIMBL/SIMBL.php plugin to make the green button on Cocoa apps maximize windows instead of zooming them in to fit content. If that annoys you, it's definitely worth checking out. This could also be a good base to look at if you want to write a SIMBL plugin for OSX.
+
+*"every":http://github.com/mynyml/every* is the freshest batch of syntactic sugar to come out of Rubyland. No seriously, it's a great shortcut that avoids using "Symbol#to_proc":http://pragdave.pragprog.com/pragdave/2005/11/symbolto_proc.html. So instead of <code>enum.map {|i| i.floor }</code> or <code>enum.map(&:floor)</code>, simply do: <code>enum.every.floor</code>. I'll be cloning this project once I'm done with this article, and so should you.
+
+*"reversehttp":http://github.com/tonyg/reversehttp* is an answer to one of HTTP's problems: polling for updates is bad. With some Erlang magic, this project hopes to make providing services for the web just as easy as requesting services from it. Sponsored by "LShift":http://www.lshift.net/, the company behind "RabbitMQ":http://www.rabbitmq.com/, this project is definitely going places. Check out the "project's website":http://www.reversehttp.net/, the "specification":http://www.reversehttp.net/specs.html of how it should work, and "some small demos":http://www.reversehttp.net/demos/ in action.
+

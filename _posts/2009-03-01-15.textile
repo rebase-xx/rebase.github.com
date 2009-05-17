@@ -1,0 +1,22 @@
+---
+title: GitHub Rebase 15
+layout: post
+---
+
+Sorry I missed last week, hopefully I can get this out weekly from now on. As always, check out "this guide":http://github.com/guides/rebase-howto to see what you can do to help your chances of getting noticed. Stats are on hold until next week until I figure out how to not make "Octocat cry too much":http://github.com/images/error/octocat_sad.gif. 
+
+p=. !http://farm4.static.flickr.com/3537/3321599572_2572b904fc_o.jpg!
+
+h3. Featured Project
+
+*"keywurl":http://github.com/alexstaubo/keywurl* adds a keyword-based search to your Safari address bar. It also makes it easy to add your own commands for sites you want to search often. For instance, you could make a <code>gh</code> keyword that searches GitHub repositories instead of relying on the search bar or being on the site itself. Of course, it's in Objective-C, and all the source is available if you want to see how plugins for Safari work. "alexstaubo":http://github.com/alexstaubo has even wrapped up some DMGs for easy installation along with a "nice project site":http://alexstaubo.github.com/keywurl/ as well. This is a ridiculously useful tool for any OSX/Safari user, so check it out! 
+
+
+h3. Notably New Projects
+
+*"whenever":http://github.com/javan/whenever* provides a really easy way to write tasks that must be done repeatedly or at a certain time in a simple Ruby DSL. It can even write out "crontab":http://en.wikipedia.org/wiki/Cron files for you based on the commands and times that you give it. Take a look at some examples of the syntax on the "project's wiki":http://wiki.github.com/javan/whenever/instructions-and-examples.
+
+*"lawnelephant":http://github.com/vegashacker/lawnelephant* applies Seinfeld to websites: it's a web application that does nothing! Well, really, it does so some stuff, and you can even suggest and vote on features that should be built in. What's really crazy is that it's all implemented in "Scheme":http://github.com/vegashacker/lawnelephant/graphs/languages. Who knew feature creep could breed an entire website (on purpose)? It's live at "http://lawnelephant.com/":http://lawnelephant.com/ if you want to see it in action.
+
+*"burst":http://github.com/F1LT3R/burst* is for those who don't like Flash and would rather use the "Canvas":https://developer.mozilla.org/en/Canvas_tutorial element with some "jQuery":http://jquery.com style chaining and callbacks. The goal of the project is to provide a layer-based animation system (like "After Effects":http://www.adobe.com/products/aftereffects/) that is easy to build great looking sites with. It's got a decent start on "documentation":http://hyper-metrix.com/burst/development/doc/ and it even has an "awesome demo/home page":http://hyper-metrix.com/#Burst. If you're looking for alternatives to Flash or are willing to contribute to something that may prove useful to plenty of web developers, get forking! (Also, ASCII art in READMEs always rules.)
+

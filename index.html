@@ -1,0 +1,19 @@
+---
+layout: master
+title: Home
+---
+
+<div class='home_box' id='home_left'>
+  <h2>Latest Post <span class="more">(<a href='/archive.html'>Archive</a>)</span></h2>
+  
+  <div class='post'>
+    <h1><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
+    <div class='body'>{{ site.posts.first.content }}</div>
+  </div>
+</div>
+<div class='home_box' id='home_right'>
+  <h2>Featured Projects</h2>
+  {% include featured.html %}
+  <div id='github-projects'>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+---
+title: GitHub Rebase 11
+layout: post
+---
+
+A bit late, but always delivered. All of the projects and people featured this week crank the volume to 11!
+
+p=. !http://farm4.static.flickr.com/3363/3213899463_b584c60977.jpg?v=0!
+<small><br />(Stats Breakdown lost its passport on vacation, and hopefully will be back soon.)</small>
+
+h3. Featured Project
+
+*"disco":http://github.com/tuulos/disco* is the new hotness in running high performing, scalable, and robust data processing. Using the power of "MapReduce":http://en.wikipedia.org/wiki/MapReduce, an Erlang backend hooks into your custom Python code for executing tasks from full-text indexing to data clustering. It's as easy as writing two methods: @fun_map@ and @fun_reduce@! Disco accepts all sorts of data formats, can scale up to huge datasets, and has nice status pages for checking up on the cluster. It can be run on your machine or even "EC2":http://discoproject.org/doc/start/ec2setup.html, and it comes with "plenty of documentation":http://discoproject.org/doc/. If you need to do some extreme number crunching or happen to have a few "teraflop systems":https://asc.llnl.gov/computing_resources/bluegenel/photogallery.html sitting around, check this project out!
+
+h3. Notably New Projects
+
+*"potion":http://github.com/why/potion* is "why the lucky stiff's":http://github.com/why latest experiment. This time the mad scientist is cooking up a new language that's object and mixin oriented. The gist of the language is simple: everything is an object, but objects aren't everything. Potion seeks to make a clear distinction between the data and methods an object has, and allows methods to be swapped or altered very easily. If you're interested in VM design or want to contribute to a budding language, fork away!
+
+*"jquery-form-prompt":http://github.com/hpoydar/jquery-form-prompt* has something that I tend to have in every web development project: input elements that have some default text, then disappear when the text box gains focus or is clicked on. "hpoydar":http://github.com/hpoydar has wrapped this up into a JQuery plugin that shrinks it down to one line: @$('input#email').form_prompt('Email');@ It also never touches the actual @input@ element given, it makes an overlay instead so your backend doesn't have to deal with the default case. 
+
+*"jscocoa":http://github.com/parmanoir/jscocoa* allows you to write Cocoa applications in JavaScript. Sounds crazy, but it's possible! It allows you to call Objective C or plain 'ol C code from JS along with inheriting from Obj-C classes. See it in action in the "Elysium MIDI synthesizer":http://lucidmac.com/products/elysium/, "check out the project's site":http://inexdo.com/JSCocoa, or "read up on how it works":http://code.google.com/p/jscocoa/.
+
+h3. Hardcore Forker of the Week
+
+*"Leonid Volnitsky [lvv]":http://github.com/lvv* is a C++ hacker who works mainly on a "utility library filled with tons of goodies":http://github.com/lvv/lvvlib and also a library that aims to "optimize the language":http://github.com/lvv/lopti even more using some crazy math. What really caught my eye though is a project that can help out the community on GitHub as a whole: "git-prompt":http://github.com/lvv/git-prompt. He took the idea behind "putting your branch name in your prompt":http://github.com/guides/put-your-git-branch-name-in-your-shell-prompt to a whole new level. This script allows you to track branches, the modified state of files that you're working on, and can even show if your HEAD is detached. Who needs @git status@ when bash can just tell you everything? "Check out the site":http://volnitsky.com/project/git-prompt/ for more information on what it can do and definitely watch out for more awesome code from him!
+

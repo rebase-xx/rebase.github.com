@@ -1,0 +1,24 @@
+---
+title: GitHub Rebase 16
+layout: post
+---
+
+It's time for another Rebase! Let's get started. (Want to get noticed? "Here's how to improve your chances":http://github.com/guides/rebase-howto)
+
+p=. !http://farm4.static.flickr.com/3584/3342450739_f0b609dcc5_m.jpg!
+
+h3. Featured Project
+
+*"selectorgadget":http://github.com/iterationlabs/selectorgadget* is the swiss-army knife of embeddable bookmarks. It can slice and dice elements on a page and present you with a freshly cut CSS selection for exactly the elements you wanted. If you've ever wasted time trying to pick out elements and digging around using Hpricot, jQuery, or Firebug (or worse), stop that and get this in your toolbar now. If you're still confused as to what it can do, luckily "Kyle Maxwell":http://github.com/fizx and "Andrew Cantino":http://github.com/iterationlabs have teamed up to provide us with a nice little screencast along with a demo page at "http://www.selectorgadget.com/":http://www.selectorgadget.com/. Consider this a great little tool that will save any web developer time at some point during their daily work.
+
+h3. Notably New Projects
+
+*"ninject":http://github.com/enkari/ninject* is a .NET "dependency-injection":http://en.wikipedia.org/wiki/Dependency_injection framework from the twisted mind of "Nate Kohari":http://github.com/nkohari. This project has been in the works for quite some time, but it's just landed on GitHub and is ready for some hot forking action. Read up about what it can do for your application on "its homepage":http://ninject.org/ or perhaps "this interview from last June on InfoQ":http://www.infoq.com/articles/ninject10-released.
+
+*"zappit":http://github.com/mbadran/zappit/tree/gh-pages* is one of the first projects I've seen outside of personal pages and blogs to provide something genuinely useful and interesting solely through its "GitHub Page":http://mbadran.github.com/zappit/. This page gives you a quick and easy way to give the "Zap Reader":http://zapreader.com/reader/, a speed reading service. The gist is this: give the site some url or paste what you want to read, click play, and read faster than ever before. Make sure to try it out, it's quite a different reading experience.
+
+*"knowyourprivacy":http://github.com/PaulKinlan/knowyourprivacy* is a new way to figure out what kind of information you're sharing with others through Facebook applications. "The application itself":http://www.new.facebook.com/apps/application.php?id=10341847494 is quite simplistic and just in its beginning stages, but it could evolve into a "really useful tool":http://www.knowyourprivacy.com/ for the entire community to see exactly what people can find out about you through the site. If you're concerned about what's being shared about you or perhaps just worried your identity might be stolen, give this application and its source a look. 
+
+If you've got a Git related image, "send me a message!":http://github.com/qrush As long it doesn't have the "boys from Git Fresh":http://musicremedy.com/webfiles/artists/GitFresh/GitFresh-01-big.jpg or Larry the Cable Guy's slogan I'll probably put it up in a future post.
+
+

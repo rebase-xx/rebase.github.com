@@ -1,0 +1,32 @@
+---
+title: GitHub Rebase 6
+layout: post
+---
+
+Welcome to the sixth edition of Rebase! (guaranteed 100% "tryptophan":http://recipes.howstuffworks.com/question519.htm free)
+
+h3. Stats Breakdown
+
+p=. !http://chart.apis.google.com/chart?chl=commit:+17285|watch:+4140|follow:+1189|gist:+1160|create:+1026|fork:+792|wiki:+455|commitcomment:+255|member:+229|guide:+13&cht=p3&chs=530x220&chco=336699&chd=s:9OEEDCBAAA&chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+11-23-2008+to+11-29-2008&chf=bg,s,f0f0f0!
+
+p=. !http://chart.apis.google.com/chart?chm=B,bbccd9,0,0,0&chxt=x,y&chxl=0:|11-23|11-24|11-25|11-26|11-27|11-28|11-29&cht=lc&chs=530x375&chdl=commit|commitcomment|create|follow|fork|gist|guide|member|watch|wiki&chd=s:NIHIGMGIFGLFIIJLONKONPIhLMJOIMNOFQLPHUMZTYeViPZPUKMZOSJHJQQLPMNPRdORUciSRTTMNPNJJLJOMMOUUbQSXaPSQOIMKONLM9KQGMPNORBEXRNRNOIJNLHNUMJoaURSWMTONcPJOLQKJGLJIJFHMMLQLLPTVO,AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA,ABBAABAAAAAAAABABAAAABBAAAAABAABABBAABACBBCAAABAABABBAABABAABBBCBBBCBBABAAAABAAABABABBBABABCABBAAAAAAAAAABAABBBAABBBAAAAAAAABDAABBBBABBBAABAAAAAAAAAAAAABABABBBABB,CABAABABAAAABAAABABABABBBABBBABCABBBACAABAAABBBAAAACAABABAAAABCBCBBBBBBACBAAAAAAAABABABBBBDAGBBBAABBBBBABABBABBBACABBBABACBAABABBABACABCBAAAAAAABBBBAAABABABABAABB,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABBABBBBABABAAAABAAAABAAAAAABABBAACBBBAABBAABABBAABBABBBAAABAAAAAAAAABAAABAAAAAAAABAAAAAABABAAAAABABBBAAAAAAAAAAAAAABAAAAAAAB,AABABAAAAAAAAAABAAABEECAAABAAAAAAABABBAAACBBAAAAAAAABAAABAABBCBBBCCBBBBBCABBAABBAAABCBBDDBBBBAABBBBAAAAAABBCBAABAAABBAADBAAAAABBBAABBCBBAAAAAAABAAAAAAAAAAACBCCBA,AAAAAA,AAAAAABAAAAAAAAAABAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,DBCCBBABCCCCBBCCDCCCCEDDDCCBBECCDEDDCDEEJGFDFDDDEFCCBCBBDCDEFEFGHGGGGEGFEECDDCBDCFDDCEEHEFDIGIFEDEDEDEEEGDEFFEEDEDAECECDEEDDCDFDCEFGEEDDEEDECBBCCBBBDCCBCBCCECEDDCBFD,AABAAAAAAAAAAAAAAAAAAAAAAAAAAABBAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABBAAAABAAAAAAABAAABBAAAAAAAAAAABAAAAAAABAABAAAAAAAAAAAAAAAAA&chxr=1,0,2869&chco=000000,ff0000,00ff00,0000ff,ffff00,3cb371,ff00ff,ff9900,ffff99,993399&chtt=GitHub+Rebase+%E2%80%94+Events+Breakdown+%E2%80%94+11-23-2008+to+11-29-2008&chxs=0,4183c4,9,1|1,4183c4,9,1&chf=bg,s,f0f0f0!
+<span style="font-size:90%;text-align:center;">(GitHub users definitely love their football and turkey. Check out the huge drop on 11/27!)</span>
+
+h3. Notably New Projects
+
+*"webarchiver":http://github.com/paulwilliam/webarchiver/tree* is a tiny Objective-C project that allows the creation of Safari ".webarchive":http://en.wikipedia.org/wiki/Webarchive files, which is a convenient way of storing all of a website's files: css, js, images along with HTML. This is way easier than looking up all of the files for a site manually, and it's a command line tool so you won't need to open your browser to do it. Not really portable though, but it's fast and easy on OSX. More information "here.":http://www.entropytheblog.com/blog/2008/11/webarchiver-create-safari-webarchives-from-the-command-line/
+
+*"jss":http://github.com/andykent/jss/tree* is simple: CSS3 support in any browser that already supports jQuery. Sounds awesome to me! Comes with plenty of tests, a ridiculously simple API, and even caching. Check this out if you want to live on the edge of CSS design.
+
+*"suprdate":http://github.com/olliesaunders/suprdate/tree/master* is a kickass DSL for working with dates in Ruby. Makes traversal and iteration of dates really easy, and suprisingly has an infinite loop built into it. Who says you can't model the end of time in code? Can also filter dates, make ranges, and much more. If you need to do anything complicated with long spans dates in Ruby, I'd check suprdate first.
+
+h3. Hardcore Forkers
+
+*Pieter de Bie ("pieter":http://github.com/pieter)* is the brains behind "GitX":http://gitx.frim.nl/, a gui app for browsing your git repositories on OSX. GitX is "definitely way easier on the eyes and mind":http://gitx.frim.nl/seeit.html if you need a break from the command line. This alone qualifies him as a hardcore forker in my book. Lately he's also been "hacking on Safari plugins":http://github.com/pieter/draggabledownloadplugin/tree. This is definitely one to watch if you're into OSX/Cocoa/Objective-C development.
+
+*Antonin Hildebrand ("woid":http://github.com/woid)* is up to some really neat things here on GitHub that deserved to be checked out even if you're not a Pythonista. Probably the most useful is "firepython":http://github.com/woid/firepython/tree/master, which allows for console logging of your Python app, be it Django or what have you, through Firebug. "And it looks pretty slick too.":http://github.com/woid/firepython-addon/tree/master/support/screenshot.png?raw=true Another upcoming creation of his is "drydrop":http://github.com/woid/drydrop/tree/master, which uses git and Google App Engine to deploy static HTML sites without needing to know Python. 
+
+*Neuros Technology ("neuros":http://github.com/neuros)* is a shining example of a company that has really embraced the open source community and transparency in the development process. They offer a "set-top box":http://www.neurostechnology.com/  that can organize, archive, and play nearly any video content online, and the code that runs it is completely open (and here on GitHub!). Oh yeah, they also have "occasional bounties":http://open.neurostechnology.com/category/projects/bounties for features if you're looking to earn some money on open-source hacking. 
+
+That's it for this week! Next time I'm going to attempt to figure out the trends for the month of November, to see which weeks were the most active and get a better gist of the site activity overall.
+

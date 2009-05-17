@@ -1,0 +1,30 @@
+---
+title: GitHub Rebase 3
+layout: post
+---
+
+This week I've changed the graphs around quite a bit! The activity on the site just continues to increase, and surprisingly it didn't take a hit because of RubyConf. 
+
+h3. Stats Breakdown
+
+p=. !http://chart.apis.google.com/chart?chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chl=commit:+16646|watch:+4404|follow:+1158|create:+1072|gist:+1031|fork:+806|delete:+691|wiki:+612|member:+349|commitcomment:+159|guide:+3&cht=p3&chs=530x220&chco=336699&chd=s:9QEDDCCCBAA&chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+10/31/2008+to+11/06/2008!
+
+p=. !http://chart.apis.google.com/chart?chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chxt=x,y&chxl=0:|Fr|6|12|18|Sa|6|12|18|Su|6|12|18|Mo|6|12|18|Tu|6|12|18|We|6|12|18|Th|6|12|18|Fr&cht=lc&chs=530x375&chd=s:MIMOJHGGKICFEUdSRRPOOMNMNJGBQHHFDGG9HFJKLIONIHKJLJFJMHFHLIGGGHKMJKLMOPKKJJIMKMHIIKHKMNPQSRQRQPLOLMIMLJIJIIHIIKLPOONOSROKgFHBJFGFEENEMJGVLQPNSKNTHGJIIHIGGFOGPMNRQPQOQWN&chxr=1,0,858&chco=336699&chtt=GitHub+Rebase+%E2%80%94+Hourly+Events+%E2%80%94+10/31/2008+to+11/06/2008&chxs=1,000000,10,1!
+
+h3. Notably New Projects
+
+* "Settingslogic":http://github.com/binarylogic/settingslogic/tree/master: Globally accessible settings in an ERB-enabled YML file. Where can I get some? Check out some more examples in "binarylogic's":http://github.com/binarylogic "blog post":http://www.binarylogic.com/2008/11/3/settingslogic-a-great-settings-solution-or-the-greatest about the plugin.
+
+* "scanty":http://github.com/adamwiggins/scanty/tree/master: A "Sinatra-driven":http://github.com/bmizerany/sinatra/tree blog from "adamwiggins":http://github.com/adamwiggins. I haven't had the chance to look at any Sinatra apps, but this will definitely be my starting point. See it live on "his blog":http://adam.blog.heroku.com/.
+
+* "hoshi":http://github.com/pete/hoshi/tree/master: A new, clean way of defining HTML/XML views in pure Ruby. Definitely would be nice for apps that need a template system or HTML output quickly and easily. Tons of examples "here":http://debu.gs/hoshi.
+
+h3. Workaholic Repos
+
+* "factor":http://github.com/falava/factor/tree/master, *774* commits: The "Factor":http://www.factorcode.org/ programming language
+* "digispeaker":http://github.com/jonsmirl/digispeaker/tree/master, *508* commits: From "their site":http://www.digispeaker.com/, 'internet connected 100W stereo amplifier embedded in a pair of speakers'
+* "votereport":http://github.com/davetroy/votereport/tree/master, *185* commits: Kept track of election voting at "http://twittervotereport.com":http://twittervotereport.com
+* "poolparty":http://github.com/auser/poolparty/tree/master, *179* commits: Second week in a row! Easily create scalable sites running on cloud computing. "More here.":http://www.poolpartyrb.com
+* "typus":http://github.com/fesplugas/typus/tree/master, *133* commits: Super easy admin interface for your Rails site. Plenty of "screenshots on the project's wiki":http://github.com/fesplugas/typus/wikis
+
+As always, suggestions for improvements (and projects to cover!) are welcome. I'd love to break down the huge spikes in the activity or perhaps add an entirely new graph. I would also like to see some projects using "other languages than Ruby":http://github.com/languages next week.

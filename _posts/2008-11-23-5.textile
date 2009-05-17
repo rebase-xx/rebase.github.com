@@ -1,0 +1,29 @@
+---
+title: GitHub Rebase 5
+layout: post
+---
+
+I've done some serious work towards generating more accurate statistics this week. If you're interested in how the graphs are made, check out my "rebase project":http://github.com/qrush/rebase. I'm going to be consistently pulling stats from Sunday 00:00 UTC to Saturday 23:59 UTC for now on (instead of doing it ad-hoc). 
+
+h3. Stats Breakdown
+
+p=. !http://chart.apis.google.com/chart?chl=commit:+20133|watch:+5087|follow:+1516|gist:+1397|create:+1301|fork:+890|commitcomment:+442|wiki:+426|member:+339|guide:+17&cht=p3&chs=530x220&chco=336699&chd=s:9PEEDCBBBA&chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+11-16-2008+to+11-22-2008&chf=bg,s,f0f0f0!
+
+p=. !http://chart.apis.google.com/chart?chxl=0:|11-16|11-17|11-18|11-19|11-20|11-21|11-22&cht=lc&chs=530x375&chdl=commit|commitcomment|create|follow|fork|gist|guide|member|watch|wiki&chd=s:HHGHIGFEDEEEFFELLQLKOLQIIGEGGLUHNPKFEIOIKNMINLNLQHOGHJJEEGHHJHIHPNK9OQKKHIIGKHIDGGHGGKIRQLMMNNLKHLHFHLFGFEGEHQIHLKKLNKOIHHHHENJEHHEMJKNKRMLLHKJJOKHFFLGIGFGGFHGGIIFFKKKG,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAABAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAABBAABBABAAAAAAAAAAAAABABAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABBAAAAAABABAA,AAAAAAAAAAAAAAAAAAAAAACAAAABBABAAADBAABAAABBBBBCBBBAAABAACAAAABAAACCCAAABBAAAAAAABAAACABABBBBBBAAAAAAAAAAAAABABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABABAAAAABA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,AAAAABAAAAAAAAABAAAAAAAAAAAAAAABAAAABAAABAABBAAABABAAAAAAAAAAAABABBAABAAAAAAAAAAAAABAABBBBBBAAAAAAAAAAAAAABBAAABBBBAAAAAAAAAAABAAABBABBBBAAAAAAAAAAAAAAAAAAAABAAAAA,AAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAA,BBBCBBBBABCBABBBCBBBCCCBCCCBBDDDBDDCCCDCDCCEDDDDDCCBBBCCCDDCBCDDEFDDDDCCCCBBCCBBCDCBCDDCDBDDCDECBDBBBBACABBADBCDDCCBDCDDDCCBCBBCFCCDDCFDECDCDCCBBBBACACCBBBBABCBCBBCCCCB,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&chxr=1,0,3607&chco=000000,ff0000,00ff00,0000ff,ffff00,3cb371,ff00ff,ff9900,ffff99,993399&chtt=GitHub+Rebase+%E2%80%94+Events+Breakdown+%E2%80%94+11-16-2008+to+11-22-2008&chxs=0,4183c4,9,1|1,4183c4,9,1&chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chxt=x,y!
+
+h3. Notable Projects
+
+* *"couchdbx":http://github.com/JonGretar/couchdbx/tree/master* This is a native OSX client for "CouchDB":http://couchdb.org that helps with starting/stopping the service and pulling the admin interface up for it (called Futon. awesome name). This is a fork of the project that lives mainly on "Google Code":http://couchprojects.googlecode.com/svn/trunk/unofficial-binary-releases/CouchDBX/. If you're using CouchDB on OSX, definitely check this out.
+
+* *"xna-games":http://github.com/tylerbutler/xna-games/tree/master* Finding example code for "XNA game development":http://creators.xna.com/en-US/ in C# was always a bit of a pain, but lo and behold, plenty exists here. ("and even more here!":http://github.com/search?q=xna). This repository hosts a few separate games along with a few toolkit projects to help out. A decent starting point for those who want to play around with XNA on GitHub.
+
+* *"filezoo":http://github.com/kig/filezoo/tree/master* Visualizing filesystems has always been a tough task, but filezoo seeks to make it fun, fast, and easy to use. It uses "Mono":http://mono-project.com, "Cairo":http://cairo-graphics.org, and "Gtk#":http://www.mono-project.com/GtkSharp and "looks pretty neat":http://1.bp.blogspot.com/_yZA36-WQFmM/SShPky8PW_I/AAAAAAAAAc8/MPvazJv1L6Q/s1600-h/thumb_proto.jpg. Also, "the author":http://github.com/kig is keeping track of his work and even posting sketches of his thought process on his "blog":http://fhtr.blogspot.com/. Open source development at its best: open, free, and damn cool.
+
+h3. Hardcore Forkers
+
+* *"jflam":http://github.com/jflam John Lam* is the leader of the "IronRuby project over at Microsoft":http://ironruby.net, which is the .NET implementation of Ruby. He's very active on GitHub, and he actually had the most forks out of any user this week! He's also a contributor to the "rubyspec project":http://github.com/rubyspec/rubyspec, which is _the_ way of determining the behavior for the Ruby language and is used across other VM projects as well.
+
+* *"drf":http://github.com/drf Dario Freddi* has been up to a ridiculous amount of commits this week. (nearly 700!) He's the brains behind the "PowerDevil":http://www.kde-apps.org/content/show.php/PowerDevil?content=85078 application on KDE, which finely tunes your laptop's power usage to squeak out a few more minutes when you're far away from a power outlet. This week he's been hard at work on a "few":http://github.com/drf/shaman1/tree/master "tools":http://github.com/drf/aqpm/tree/master for package distribution on "Arch Linux":http://www.archlinux.org/.
+
+* *"umonkey":http://github.com/umonkey Justin Forest*'s project "molinos-cms":http://github.com/umonkey/molinos-cms has been featured on the column before for its huge amount of commits, and this time I had to figure out what all of the activity was about. It's a PHP based CMS that seems to be based in Russian, and plenty of work is being done on it. Check out their "translated blog":http://translate.google.com/translate?u=http%3A%2F%2Fblog.cms.molinos.ru%2F&hl=en&ie=UTF-8&sl=ru&tl=en for screenshots, features, and more information about what he's been up to. Hopefully they'll get some fluent English contributors soon as well.
+

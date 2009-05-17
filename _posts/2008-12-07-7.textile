@@ -1,0 +1,30 @@
+---
+title: GitHub Rebase 7
+layout: post
+---
+
+Welcome to the seventh edition of Rebase! Starting this week I'll be nominating a new repo to the "Featured Project" section on the front page, and explaining why I think it deserves the honor here.
+
+h3. Featured Project
+
+*"cucumber":http://github.com/aslakhellesoy/cucumber/tree/master*: Cucumber is fast becoming the standard for acceptance testing in Rails. It's the replacement for the RSpec story runner, but it doesn't stop there: it's now totally free of any RSpec dependencies. The "project's wiki":http://github.com/aslakhellesoy/cucumber/wikis/home is chock full of helpful examples, ways to use it with other testing frameworks/application platforms, and more. What's best about it is that it's mostly written in plain text, something your managers/clients can definitely understand. Take a dive into the BDD mindset if you haven't already and see how it can help your project out.
+
+h3. Stats Breakdown
+
+p=. !http://chart.apis.google.com/chart?chtt=GitHub+Rebase+—+Total+Events+—+11-30-2008+to+12-06-2008&chf=bg,s,f0f0f0&chl=commit:+19667|watch:+5509|follow:+1461|create:+1241|gist:+1233|fork:+998|member:+381|wiki:+364|commitcomment:+325|guide:+7&cht=p3&chs=530x220&chco=336699&chd=s:9REDDDBBBA!
+!http://chart.apis.google.com/chart?chtt=GitHub+Rebase+%E2%80%94+Events+Breakdown+%E2%80%94+11-30-2008+to+12-06-2008&chxs=0,4183c4,9,1|1,4183c4,9,1&chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chxt=x,y&chxl=0:|11-30|12-01|12-02|12-03|12-04|12-05|12-06&cht=lc&chs=530x375&chdl=commit|commitcomment|create|follow|fork|gist|guide|member|watch|wiki&chd=s:JP3LLLLHLNJMIOSdJQUVRfjSXkQSSXWWMIPQQWRYWsYraVbXYURWQUNNIRRRV9miaiqfbrqltgXfmkUZeTfZYZaXncemwhlhYYYcdsTeQiZSSwiagigufqkdmyUYQZTZMOiNNXfd3fadkekZZXYTNgOZJILLOSTScabZZqfW,AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAABBCBABABBAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA,AABAAABABABAAABAAACABBBABBCACBABAABAABBBBABBDBBBABBBBBABABBBABBCBBBBCBBFDBCCBBBBABBBBBBBDBCDCBDDDACCBBCBABBABBBDCBCCBCCCCCCDBABBBAABCACCBCCCBCBCBABBAABBBAABBBBBBDBBCCCB,ABBAAABAAAAAAABBAABDCBAABABBBABAABAABBCCCBBCCABABBAAABBCABBCCCEBBBBFBBBDEBBDCCABBBDEABCCCBEDBCDBBCDCBAABAACBAAFCDDEBCFCDBBCABKBBAAABBBCDDCDFCCBADBDBBCBBBABBDBBAADBCGFB,AAAAAAAAAAAAAAAABBBABAABAAAAABAABAABBBACACCBBAABABABBBBBBAABCBABBBDCCBCBCABABBAABACABBBBBCBBBCABBBBAAAAABBABACBBBBBBBBBBBBABBABDBAAACCCBBCCCACBBBAABBABABBBBBACCBCBACB,AAABABABAAAAAAABBBAACBBAAABBAAABCAAABABCACBBEADBBDABBABBBAABBDDBBBBDEDCBBCCFBABABBEBCBCCBEBEDBAABBAAABBAACCBDBACCCDBCBAABAAACAABABCBECGCDBBCBBBBABBAABAAAACBBBBCBBA,AAAAAAA,AAAABAAAABAAAABAAAAAAAAACAAAAAAAADABAAAAAABAAAACABAAGCBBAAAABAABAAAAACAABBBAAAAABAAABBAAAAAABABBABAAAAAAAAAAAAAA,CCCBBBDCCDEFBFEEEEEDIJHFEFFGEHEDDGHFGKLKJLGJLIKGFFFDDCGHEGHEKHKJLKIKKKMHKZGEGIFJDFGGIHLMIHLNHJRMJKFEFGFDIGHFJFLMMIJKKKLGHEHGDEIFIIHHGGILKLHJKLKIGFFDEFDDECCEGFDFGEHGFGGI,AAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABBBABAAAABBBAAAAAAAAAAAABBAABAAAAAABCAAAABAABAAAAAAAAAABAAAAAAABABBBAAAAAAAAAAAAAAAAB&chxr=1,0,3447&chco=000000,ff0000,00ff00,0000ff,ffff00,3cb371,ff00ff,ff9900,ffff99,993399!
+
+h3. Notably New Projects
+
+*"merb-book":http://github.com/mattetti/merb-book/tree/master*: This just got started earlier this week following an announcement on "The Merbist":http://merbist.com/2008/12/04/annoucing-the-merb-open-source-book/ and it's seen a "flurry of activity":http://github.com/mattetti/merb-book/network within its first week. The point of the project is to offer superb documentation to those who are willing to try out Merb but don't necessarily want to pay for one of the other books that will soon be available, and also to provide translations. If you want to see the work in progress, check it out here too: "http://book.merbist.com/":http://book.merbist.com/
+
+*"perlchallenge":http://github.com/amoore/perlchallenge/tree/master*: This repo hosts a site that leads you through programming exercises in Perl to hone your craft with the language. (This is a refreshing change from the "PGA":http://en.wikipedia.org/wiki/Perl_Golf_Apocalypse) If you're looking to get into Perl, this is a simple and interactive way to get acquainted with it. "Are you up for the challenge?":http://www.perlchallenge.com/
+
+*"gitextensions":http://github.com/spdr870/gitextensions*: Earlier this week there was a call to action to create a "TortoiseGit for Windows":http://github.com/blog/256-tortoisegit-challenge, along with an associated "git-cheetah":http://github.com/schacon/git-cheetah/tree/master project that already has a head start on Explorer integration in Windows. If you're looking for a way to use Git with Visual Studio 2008 though, look no further than the gitextensions project. "They already have a good head start too.":http://sourceforge.net/dbimage.php?id=195717 If you're a Windows developer, contributing to either of these projects would mean a lot to the future of Git.
+
+h3. Hardcore Forker
+
+*Evan Phoenix ("evanphx":https://github.com/evanphx)* is the leader of the "Rubinius":http://rubini.us project, which is a Ruby VM built in mostly Ruby and C++ that "lives right here on GitHub":http://github.com/evanphx/rubinius/tree/master. This project is a goldmine for those who want to learn more about VMs or just to see how they've implemented some of the features in the Ruby language. He's turned the project into a truly community focused one: submit a patch and you automatically get commit rights. Contributing is also quite simple: run your favorite Ruby apps on Rubinius, and see if anything is broken or not supported.  Evan's work with Rubinius is a great example of a radical yet successful way to run an open source project that allows contributors to easily jump in, have fun, and make a difference.
+
+I was planning on creating some new monthly graphs for November this week, but it just didn't work out. There were some holes in my data collection for November and I want to ensure as much accuracy as possible with the graphs. (Also, downloading and parsing ~6200 RSS pages with 30 events each takes a chunk of time too). Consider this a raincheck for some cooler ones at the end of this month.
+

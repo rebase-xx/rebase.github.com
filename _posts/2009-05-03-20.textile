@@ -1,0 +1,29 @@
+---
+title: GitHub Rebase 20
+layout: post
+---
+
+Yet another Sunday, yet another Rebase!
+
+p=. "!http://farm4.static.flickr.com/3658/3496106268_c74197ecb0.jpg?v=0!":http://mastermixcrew.blogspot.com/2008/11/git-phonkee.html
+
+h3. Featured Project
+
+*"compass":http://github.com/chriseppstein/compass/tree* makes CSS "not suck":http://www.tenthline.com/blog/2009/03/13/compass-css-doesnt-have-to-suck/. It's a flexible CSS "meta-framework":http://compass-style.org/ that ties together the power of "SASS":http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html (Syntactically Awesome Style Sheets) and your favorite grid template system, be it "960.gs":http://960.gs, "Blueprint":http://www.blueprintcss.org/, or "YUI Grids":http://developer.yahoo.com/yui/grids/. Compass uses "mixins":http://awardwinningfjords.com/2009/04/02/dont-repeat-yourself-use-sass-modules/ to allow you to easily bring in the styles you want and integrate it without polluting your markup with tons of unnecessary CSS classes. There's plenty of tutorials for integration with your preferred web framework as well as a great screencast on the "project's wiki":http://wiki.github.com/chriseppstein/compass. Save yourself some frustration next time you have to implement a site's layout from the ground up.
+
+h3. Notably New Projects
+
+*"emerge":http://github.com/numerodix/emerge/tree/master* is the new build system on the block, written in Python. Armed with a ridiculously clean build script and support for fetching edge versions of dependencies from their source code repositories, this could become quite popular. Check out some examples of how simple the build scripts are for "Mono":http://github.com/numerodix/emerge/blob/56f0fcefd1dcce707c86db44cc95f26d5a874257/examples/mono.py and "Python":http://github.com/numerodix/emerge/blob/56f0fcefd1dcce707c86db44cc95f26d5a874257/examples/python.py.  This is definitely some neat stuff for projects just getting started or for those that want to get away from clunkier build systems.
+
+*"pacgraph":http://github.com/keenerd/pacgraph/tree/master* doesn't build projects like the previous entry, but instead lays them out in a graph on your Arch Linux machine. It actually generates some "really cool looking visualizations":http://kmkeen.com/pacgraph/ of how different programs depend on each other:
+
+p=. "!http://farm4.static.flickr.com/3591/3499399892_cc159ebe4d_m.jpg!":http://kmkeen.com/pacgraph/high/server.png
+
+It would be really neat to see this concept applied to other operating systems, so clone away!
+
+*"GLGestureRecognizer":http://github.com/preble/GLGestureRecognizer/tree/master* is pretty self-explanatory, but there's one little catch: "it runs on your iPhone":http://giraffelab.com/code/GLGestureRecognizer/. This is an Objective-C implentation of the "Javascript $1 Unistroke Recognizer":http://depts.washington.edu/aimgroup/proj/dollar/, and it could definitely have a huge impact on new apps. How to integrate this with your "Fart Button":http://venturebeat.com/2008/12/18/apple-approved-14-new-iphone-fart-apps-yesterday-alone/ is up to you, though.
+
+*"prolog":http://github.com/propella/prolog/tree/master* is not what you think. Well, it is. But it's written in Haskell. Yeah, that blew my mind too. Check out the work that's been done so far and give "this blog post":http://propella.blogspot.com/2009/04/prolog-in-haskell.html a read about how the interpreter is being implemented. There's got to be some CS junkies out there that live for this stuff. Get forking.
+
+Finally, if you've got a project that deserves some time on Rebase, let me know! This column is meant to be for the community and by the community, and if I happen to skip over your awesome gem, framework, app, or hack don't hesitate to bug me about it.
+

@@ -1,0 +1,25 @@
+---
+title: GitHub Rebase 18
+layout: post
+---
+
+First, rewinding head to replay your work on top of it...
+
+p=. "!http://farm4.static.flickr.com/3451/3233621766_e4f6db7a22.jpg?v=0!":http://www.flickr.com/photos/tswicegood/3233621766/
+<small><br />Yes, <code>git branch</code> doesn't take a @-b@ flag. "Sidewalk and chalk":http://www.flickr.com/photos/tswicegood/3233621766/ doesn't edit easily.</small>
+
+h3. Featured Project
+
+*"synapse":http://github.com/FireRabbit/synapse* Oh, you thought Pidgin was the only (cool) Linux IM client. Enter synapse, your brand spankin' new XMPP messenger built with "Mono":http://www.mono-project.com/Main_Page. It already boasts quite a few awesome features, from previewing images, following your friends' "tweets":http://twitter.com/THE_REAL_SHAQ, and even syntax highlighting for code blocks. Check out the "project's site":http://synapse.im/ for more features or to "download it":http://synapse.im/download/, and fork away if you're on Ubuntu and need something fun to hack on.
+
+h3. Notably New Projects
+
+*"donk-remix-generator":http://github.com/rfwatson/donk-remix-generator* is your hookup for ridiculous beats while you code. Why download techno music when you could have "http://donkdj.com":http://donkdj.com and "this python script":http://github.com/rfwatson/donk-remix-generator/blob/master/remix.py add ridiculous beats to your favorite songs? I think this could be an interesting challenge: modify this script to make songs sound like other genres. Go forth and fork!
+
+*"openpyro":http://github.com/arpit/openpyro* is not just another ActionScript based framework for creating "RIA's":http://en.wikipedia.org/wiki/Rich_Internet_application, it's an awesome one that's hosted right here on GitHub. It's got a "sick project page":http://openpyro.org/, plenty of docs over at the "wiki":http://wiki.github.com/arpit/openpyro, and a "screencast":http://www.arpitonline.com/blog/?p=147 to boot. If you're starting a new Flash project or perhaps looking to contribute to a budding framework, make sure to check this out.
+
+*"auto_tagger":http://github.com/zilkey/auto_tagger* solves a tricky problem for many Rails developers: tagging releases that go out on your staging and production servers. This new AutoTagger gem attempts to automate this by creating some handy shortcuts to create and push tags. It also comes baked in with some Capistrano tasks as well that will integrate easily with your existing scripts. If you're still deploying off your repository's master branch, perhaps it's time to look into a more structured process, and this gem can definitely help out.
+
+*"docu":http://github.com/jagregory/docu* faces a problem that every developer loathes: creating documentation. This project seeks to correct this situation for the .NET world. It already creates some slick "RDoc-inspired":http://www.ruby-doc.org/core/ sites, which "you can see for yourself here":http://fluentnhibernate.org/api/index.htm. Combined with a flexible view template system based on "Spark":http://sparkviewengine.com/, a single command to whip up your docs, and an very redistributable executable, this may become the new standard for documentation in the .NET ecosystem. There's already "9 forks":http://github.com/jagregory/docu/network after roughly 2 weeks of being online, where's yours?
+
+

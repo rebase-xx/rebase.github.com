@@ -1,0 +1,42 @@
+---
+title: GitHub Rebase 2
+layout: post
+---
+
+It looks like I've been enlisted as an official blogger to bring you the latest and greatest work that's coming out of GitHub! Sit back, ogle at the graphs, and fork away.
+
+h3. Stats Breakdown
+
+<div align="center">
+<img src="http://chart.apis.google.com/chart?chbh=22,2&chf=bg,s,f0f0f0&chxt=y,x&chxl=0:|guide+(6)|commitcomment+(169)|member+(372)|wiki+(537)|delete+(667)|fork+(804)|create+(1101)|gist+(1172)|follow+(1263)|watch+(4728)|commit+(15327)&cht=bhg&chs=530x375&chd=s:9SFEEDCCBAA&chxr=1,0,15000&chco=336699&chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+10/25/2008+to+10/31/2008&chxs=0,4183c4,10,1|1,000000,10,0" />
+</div>
+<div align="center">
+!http://chart.apis.google.com/chart?chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chxt=x,y&chxl=0:|Saturday+10/25|Sunday+10/26|Monday+10/27|Tuesday+10/28|Wednesday+10/29|Thursday+10/30|Friday+10/31&cht=lc&chs=530x375&chd=s:rozvy94&chxr=1,0,4500&chco=336699&chtt=GitHub+Rebase+%E2%80%94+Daily+Events+%E2%80%94+10/25/2008+to+10/31/2008&chxs=0,4183c4,9,1|1,000000,10,1!
+</div>
+
+h3. Notably New Projects
+
+"Authlogic":http://github.com/binarylogic/authlogic/tree/master: The self proclaimed "Chuck Norris of authentication solutions." It's a new, refreshing look at doing authentication in Rails (and any framework, really) that doesn't rely on generators to inject code into your app. Still needs a lot of documentation and tutorials, but it's definitely looking promising. (Note: the project's first commit was on 10/24, but it started really gaining watchers and attention this week.)
+
+"Ronin":http://github.com/postmodern/ronin/tree/master: Simply put, Ronin is a hacker's swiss army knife. You can test your apps for security vulnerabilities with it or even punch holes through your servers via a multitude of different protocols. This project lived on RubyForge for a while, but it's just nestled into a new home here on GitHub. Clone away!
+
+"roleful":http://github.com/nakajima/roleful/tree/master: A DSL-ified way to describe permissions for objects, such as when you need to define what different classes/levels of users can do inside of your application. Keeps your models clean and is quite elegant in its execution.
+
+h3. Most Watched
+
+"cached_externals":http://github.com/37signals/cached_externals/tree/master, 63 new watchers (New Capistrano extension for linking to external gems/plugins, etc)
+
+"homoiconic":http://github.com/raganwald/homoiconic/tree/master, 61 new watchers (A new code blog from the author of Raganwald)
+
+"rack-cache":http://github.com/rtomayko/rack-cache/tree/master, 32 new watchers (Drop-in caching for Rack based apps...ETag, Expires, Cache-Control, and so on)
+
+h3. Workaholic Repos
+
+* "rubinius":http://github.com/evanphx/rubinius/tree, 216 commits
+* "rubber":http://github.com/wr0ngway/rubber/tree/master, 195 commits
+* "mangos":http://github.com/mangos/mangos/tree/master, 163 commits
+* "poolparty":http://github.com/auser/poolparty/tree/master, 134 commits
+* "dotfiles":http://github.com/search?q=dotfiles, 133 commits
+
+Next week I'd love to get a new graph up, perhaps hourly events so we can really see what times of day the hackers come out. If you've got any suggestions, let me know!
+

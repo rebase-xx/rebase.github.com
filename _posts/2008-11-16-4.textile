@@ -1,0 +1,30 @@
+---
+title: GitHub Rebase 4
+layout: post
+---
+
+Sorry about the delay on this one folks. Enjoy! :)
+
+h3. Stats Breakdown
+
+p=. !http://chart.apis.google.com/chart?chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chl=commit:+17945|watch:+4670|follow:+1385|create:+1235|gist:+1119|fork:+893|delete:+698|wiki:+517|member:+448|commitcomment:+221|guide:+5&cht=p3&chs=530x220&chco=336699&chd=s:9PEEDDCBBAA&chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+11/06/2008+to+11/12/2008!
+
+p=. !http://chart.apis.google.com/chart?chf=bg,s,f0f0f0&chm=B,bbccd9,0,0,0&chxt=x,y&chxl=0:|Th|6|12|18|Fr|6|12|18|Sa|6|12|18|Su|6|12|18|Mo|6|12|18|Tu|6|12|18|We|6|12|18|Fr&cht=lc&chs=530x375&chd=s:nPMTQRPRNNKcMnXciiehcgtbfbXUZQVIVPfVPVYiqnnacmWjlJYMNMMKONPIQOWdSHxWI9LvWRUQSPOOKLNQSTaRWaTYXbdYUYSUPQWLSVUcQecdZoiq0pkifVSXTQQQSSsUYfhdiqbcdhsjsYVbWdROPaSRZaefkqrjiirW&chxr=1,0,424&chco=336699&chtt=GitHub+Rebase+%E2%80%94+Hourly+Events+%E2%80%94+11/06/2008+to+11/12/2008&chxs=1,000000,10,1!
+
+h3. Notable Projects
+
+* "acts_like_git":http://github.com/courtenay/acts_like_git/tree/master: Crappy name, but this Rails plugin really does some neat stuff. It allows you to essentially wrap a model around a git repository. This plugin has been in the works for a while, but "court3nay":http://www.github.com/court3nay "announced that it's ready":http://blog.caboo.se/articles/2008/11/15/new-plugin-acts_as_git for the world this week. This is definitely an awesome example of collaboration and cooperation on GitHub!
+* "activeritalin":http://github.com/lukegalea/activeritalin/tree/master: I just had to check out this project. This disables @find_by_sql@ to prevent ugly hacks and shortcuts from cropping up in your app. What's better is that it adds a new method, @find_by_sql_with_excuse@ to really ensure that you have to think twice about it. Who needs coding standards when you can just have a plugin enforce it? 
+* "roxy":http://github.com/yfactorial/roxy/commits/master: This is a fantastically easy way to make your Ruby code extendable and easier to use. In a manner similar to association extensions and named scopes in Rails, Roxy allows you do define proxy methods on the fly. Check out "rwdaigle's":http://github.com/rwdaigle "blog post for some more examples":http://ryandaigle.com/articles/2008/11/10/implement-ruby-proxy-objects-with-roxy.
+
+h3. Active Repos
+
+|_. Most Commits |_. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |_. Most Watches |_. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |_. &nbsp;  |_. Most Wikis |_. &nbsp; |
+| "dotfiles":http://github.com/search?q=dotfiles | 174 | "roxy":http://github.com/yfactorial/roxy/tree | 44 | &nbsp; | "reactor":http://github.com/hobodave/reactor/tree/master | 7 |
+| "poolparty":http://github.com/auser/poolparty/tree/master | 156 | "hoshi":http://github.com/pete/hoshi/tree | 33 | &nbsp; | "media":http://github.com/davidpersson/media/tree/master | 5 |
+| "molinos-cms":http://github.com/umonkey/molinos-cms/tree | 130 | "rails_dev_mode_performance":http://github.com/yyyc514/rails_dev_mode_performance/tree/master | 18 | &nbsp; | "kanodojo":http://github.com/lorchaos/kanodojo/tree/master | 4 |
+| "echowaves":http://github.com/dmitryame/echowaves/tree | 129 | "wildflower":http://github.com/klevo/wildflower/tree | 17 | &nbsp; | "integral":http://github.com/gma/integral/tree | 4 |
+| "digispeaker":http://github.com/jonsmirl/digispeaker/tree/master | 125 | "yui-examples":http://github.com/davglass/yui-examples/tree | 16 | &nbsp; | "tuxmate":http://github.com/cbguder/tuxmate/tree | 3 |
+
+Next week I'm going to start a "Hardcore Forkers" section that will feature users who have been active on the site. Let me know if you have any other ideas for the column.
+

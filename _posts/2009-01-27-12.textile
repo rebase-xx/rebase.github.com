@@ -1,0 +1,29 @@
+---
+title: GitHub Rebase 12
+layout: post
+---
+
+Plenty of awesome projects this week! Oh, you want to be featured too? "It's easy!":http://github.com/guides/rebase-howto
+
+p=. !http://farm4.static.flickr.com/3309/3232519111_074cb4ac68.jpg?v=0!
+
+h3. Featured Project
+
+*"ioke":http://github.com/olabini/ioke* is a new JVM-based language that allows the programmer to simplify code until it's expressive and terse enough by folding layers of abstraction. Drawing on lessons taught by Lisp, Ruby, Io, and Smalltalk, Ioke uses the power of Java platform to make this kind of simplicity and elegance feasible for real world projects. Check out some examples and reasons behind creating the language at "ioke.org":http://ioke.org and its "wiki.":http://ioke.org/wiki/index.php/Guide#Introduction Ioke's creator, "Ola Bini":http://github.com/olabini, blogs constantly about developing language. Of course, you can fork and contribute to it right "here":http://github.com/olabini/ioke on GitHub!
+
+h3. Notably New Projects
+
+*"chordjerl":http://github.com/jashmenn/chordjerl* (pronounced _cordial_) is an Erlang implementation of the "Chord":http://en.wikipedia.org/wiki/Chord_project algorithm from MIT. Basically it's a distributed hash table, or in more academic terms: 
+
+<blockquote>Chord is a peer-to-peer lookup algorithm. It allows a distributed set of participants to agree on a single node as a rendezvous point for a given key, without any central coordination.</blockquote> 
+
+It doesn't seem to be used in many applications yet, but there's plenty of information and papers at "their project's site.":http://pdos.csail.mit.edu/chord/ If that gets your inner computer scientist fired up, give this project a look.
+
+*"ring":http://github.com/mmcgrana/ring* is a "Clojure":http://clojure.org/ driven HTTP abstraction library that is modeled after "WSGI":http://wsgi.org/wsgi/ and "Rack":http://rack.rubyforge.org/. By modularizing requests, responses, components, and handlers through a "strict and small API":http://github.com/mmcgrana/ring/blob/master/SPEC, it makes switching frameworks and servers a breeze. If you're doing anything related to web programming with Clojure, this is worth checking out.
+
+*"fogbugz-git-integration":http://github.com/philipf/fogbugz-git-integration* is pretty much self-explanatory, but definitely deserves some attention. Using a post-receive hook and some special sauce, you can have Git commits reported in your installation of FogBugz. It should be noted that there are "plenty of other fogbugz related projects":http://github.com/search?langOverride=&q=fogbugz&repo=&start_value=1&type=Repositories should you need "log commits from GitHub":http://github.com/johnreilly/github-fogbugz/tree/master or even "access their API from Ruby":http://github.com/austinmoody/ruby-fogbugz-api/tree/master.
+
+h3. Hardcore Forker of the Week
+
+*"Nick Gerakines [ngerakines]":http://github.com/ngerakines* is a certified Erlang badass. (And formerly a "Perl":http://search.cpan.org/~sock/ one before that!) He's got a seemingly endless list of projects in the language ranging from API implementations for sites like "Facebook":http://github.com/ngerakines/erlang_facebook and "Twitter":http://github.com/ngerakines/erlang_wowarmory, plenty of utilities and helpers, to even "a testing library":http://github.com/ngerakines/etap for Erlang apps. What's most impressive though is parts of his Facebook application, "I Play WoW":http://www.facebook.com/apps/application.php?id=2359644980&b&ref=pd, are freely available on GitHub. Currently this app is reporting over *50,000* monthly users, and it's being served up primarily with the power of Erlang and plenty of magic from CouchDB, Amazon S3, and Xapian. Check out "his blog post":http://blog.socklabs.com/2008/12/24/iplaywow_monthly_actives.html on the subject to see just how it's all set up. Needless to say, Nick's open source contributions and battle-tested projects has earned him this week's title.
+

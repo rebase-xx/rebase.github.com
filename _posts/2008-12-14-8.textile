@@ -1,0 +1,23 @@
+---
+title: GitHub Rebase 8
+layout: post
+---
+
+Welcome to the 8th version of Rebase! I had some issues generating the stats this week, but don't worry, there's still plenty of activity and new projects that I've got for you. If you've got any new ideas for content or data you'd like to see presented, let me know in the comments!
+
+h3. Featured Project
+
+*"cappuccino":http://github.com/280north/cappuccino* takes web application development to a new level. Using a superset of JavaScript called "Objective-J":http://cappuccino.org/learn/tutorials/objective-j-tutorial.php, "Cappuccino":http://cappuccino.org makes it really easy to create sites that look and feel like a desktop application. The API abstracts away the low level details of building a site (HTML, CSS, JS, the DOM, etc) and lets you focus on building your application. Check out "280 Slides":http://280slides.com to see just how fully featured and integrated the framework is. It also can make some really "nice":http://cappuccino.org/learn/demos/ (and "addictive":http://cappuccino.org/learn/demos/LightsOff/) iPhone apps.
+
+h3. Notably New Projects
+
+*"shudder":http://github.com/centro/shudder* is a testing framework for JavaScript that's based on "SpiderMonkey":http://www.mozilla.org/js/spidermonkey/. The project is just getting started, but I'm really liking the "RSpec":http://rspec.info inspired "syntax of the test cases":http://github.com/centro/shudder/tree/master/test/example/example_test.js. This could really pick up some steam if it was proven on some of the bigger JS frameworks or someone ported tests to it.
+
+*"railroad":http://github.com/royw/railroad_xing* isn't exactly new, but it was just imported onto GitHub this last week. If you ever need to visualize the relationships of classes in your Rails or Merb app, Railroad is your answer. It creates files that "dot and neato":http://www.graphviz.org/ can read and produce some "really":http://railroad.rubyforge.org/diagrams/depot_models_full.png "nice":http://railroad.rubyforge.org/diagrams/depot_controllers_full.png diagrams of how your application is laid out. Check out plenty of more examples on their "homepage":http://railroad.rubyforge.org/.
+
+*"luv":http://github.com/temiy/luv*: Who needs another MVC web framework? Who needs to test it? And seriously, who needs to write it in Lua? If you answered "I do!" to any or all of the following questions, Luv is your new favorite project. Luv claims to be faster than many of the modern Ruby, Python, and PHP frameworks, so perhaps we'll see some benchmarks (or demo sites?) soon. Until then, I'm going to be watching and hoping to see something exciting being done with Lua outside of World of Warcraft add-ons. 
+
+h3. Hardcore Forker of the Week
+
+*John Nunemaker ("jnunemaker":http://github.com/jnunemaker)* is one of the most prolific Rails and Ruby "hackers":http://railstips.org and "bloggers":http://addictedtonew.com/ and out there. His goal seems to be making coding fun (and slightly wacky too). He started the "HTTParty":http://github.com/jnunemaker/httparty/tree, an easy way to interact with REST and HTTP than mucking around with the other Ruby alternatives. He's also got plenty of other helpful projects: "HappyMapper":http://github.com/jnunemaker/happymapper, an object to xml mapping library, a "command line interface":http://github.com/jnunemaker/twitter to Twitter, and even a way to generate dummy Lorem Ipsum text "in your terminal":http://github.com/jnunemaker/lorem/tree/master as well. John is always up to something neat and extremely useful here on GitHub, and definitely is worth following just to see what he's been up to.
+

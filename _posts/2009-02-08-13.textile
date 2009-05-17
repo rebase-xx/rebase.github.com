@@ -1,0 +1,28 @@
+---
+title: GitHub Rebase 13
+layout: post
+---
+
+@$ git rebase --continue@
+
+p=. !http://musicremedy.com/webfiles/artists/GitFresh/GitFresh-01-big.jpg!
+
+h3. Stats Breakdown
+
+Thanks to "Feedzirra":http://github.com/pauldix/feedzirra, the "stats are back!":http://github.com/qrush/rebase/tree/continue
+
+p=. !http://chart.apis.google.com/chart?chtt=GitHub+Rebase+%E2%80%94+Total+Events+%E2%80%94+02-01-2009+to+02-07-2009&cht=p3&chs=530x220&chd=s:9uONCBBBAAAA&chl=committed:+34291|pushed:+26310|started:+8140|created:+7482|forked:+1360|deleted:+774|added:+621|updated:+576|edited:+539|commented:+330|applied:+308|forkd:+182&chco=336699&chf=bg,s,f0f0f0!
+
+p=. !http://chart.apis.google.com/chart?chxs=0,4183c4,9,1|1,4183c4,9,1&chs=530x375&chm=B,bbccd9,0,0,0&cht=lc&chd=s:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,EGHFDHEHGIFHJONNMOKbIgHGGFGIGEFGHHQKLMROSPT1MJKRJMHGIFIHHIMLNNOSQbQPKJIJHMFIJHIHJIKLLMKLTTNSMLKHHKGIJGNPFHKMLKKOQPnNSLHGIGGIIHHHIKHKVORNPQRKPJIFHDGEEF9FLIKLLMOLNNOM,ABCBBBABABBBCBCCCCHCCFBCBCBBBCBBBCCDDDDCNDFDEBCDCBCBBCBBBDDGCCCCDDCCDBCDCCCDBCBBBCCCCEDCDDDCCDBCCBCCBCCCBBCDCDCDDDDBDCCCBBABBCCBBCBDDCCDCDDCCCCBBBBBBDBBBCDBDCCCCCCC,AAAAAAAAAAAAACFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA,CFFGDFEFGGFJGNJJIIINIOHGGFGHHFFHGGILLLLMONONKKJKIIGGGFIGIGLMKMNNMNNNJHIGGHFGFFGGHJKKNLKJNPOKJHLHGHGFGGFIHHKLLKKKNNVKJKHGHFFGGGGHHIIKPLNNNPMJLHJFFEFDEDEEGFIJJJKJKIKJ,ABCBBDBBBCBCBEDCDCCCBCCCBCCABCCCCCCCDCECDDECCCBCCBBCBCCCBCDDDDDEFEEDCCBCCBCDCBCCCDCEDEDDDEDCCCCCDCDBCDDBCDDEEEEDEEDDBDDCCBBBCDCCDCDCEFDCCEDECCBDBBBABBBBBCCDCCCCBDCD,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&chxt=x,y&chf=bg,s,f0f0f0&chxl=0:|02-01|02-02|02-03|02-04|02-05|02-06|02-07&chco=000000,ff0000,00ff00,0000ff,ffff00,3cb371,ff00ff,ff9900,ffff99&chdl=added|committed|created|deleted|edited|forked|pushed|started|updated&chxr=1,0,5680&chtt=GitHub+Rebase+%E2%80%94+Events+Breakdown+%E2%80%94+02-01-2009+to+02-07-2009!
+
+h3. Featured Project
+
+*"visor":http://github.com/darwin/visor* adds a system-wide hotkey that can bring up your terminal, much like games that allow instant access to developer console to tweak settings and run commands. Based on "SIMBL":http://www.culater.net/software/SIMBL/SIMBL.php, it makes any OSX developer's life easier one button press at a time. Of course, the hotkey can be configured and it's a breeze to install: clone, two rake commands, and you're set (provided you have SIMBL and XCode installed). "darwin":http://github.com/darwin has been doing an awesome job with picking up where "blacktree":http://code.google.com/p/blacktree-visor/ left off on the project. If you're looking for an easier way to get to your terminal that's also pretty slick, try this utility out.
+
+h3. Notably New Projects
+
+*"coral":http://github.com/mislav/coral* is "mislav's":http://github.com/mislav followup to "rtomayko's":http://github.com/rtomayko declaration that using <code>require 'rubygems'</code> to manage your project's gems "sucks":http://www.rubyinside.com/why-using-require-rubygems-is-wrong-1478.html. Developers can't contribute back easily to gems, they can't live on the edge easily, there's no history, and the list just goes on and on. Coral seeks to solve these problems by using Git to organize your gems and adding lots of extra magic in. This new project could definitely be an awesome new tool for many Rubyists, so fork away if you've got ideas and are willing to help out.
+
+*"web-app-theme":http://github.com/pilu/web-app-theme* is an open source design template that has tons of uses: you could be like the author and suck at design, you want to get a site up and running with an visual theme, or perhaps you just want your site to have that special Web 2.0 look (just without all the shiny buttons). It's got plenty of themes already available, "looks fantastic":http://gravityblast.com/2009/01/18/web-app-theme/, and is waiting for your contributions. 
+
+*"soundcontrol":http://github.com/pixelate/soundcontrol* makes managing and manipulating sounds in your ActionScript projects a lot easier. This helper creates an XML file to configure the sound and various other settings (volume, starting time, looping), and then allows that to be dropped and compiled into your final SWF. For more information, check out "pixelate's":http://github.com/pixelate blog post on how this is a "better workflow for developers and sound designers working with AS3.":http://www.pixelate.de/blog/a-better-workflow-for-developers-and-sound-designers-in-as3-projects

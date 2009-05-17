@@ -1,0 +1,30 @@
+---
+title: GitHub Rebase 10
+layout: post
+---
+
+And we're back! Rebase went on a bit of hiatus, but it has returned in full force for 2009. Read on for the latest and greatest coming out of GitHub!
+
+h3. Stats Breakdown
+
+p=. !http://graphjam.files.wordpress.com/2008/12/song-chart-memes-os.gif!
+p=. <small>Stats are still on vacation, hopefully they'll return soon.</small> 
+
+h3. Featured Project
+
+*"metro":http://github.com/funtoo/metro* is a Python driven tool that can easily and flexibly assemble Gentoo Linux releases. Used for the "Funtoo project":http://funtoo.org/, it claims to be more extensible, consistent, and organized than its competitor, the "Gentoo Catalyst":http://www.gentoo.org/proj/en/releng/catalyst/. Metro allows easy configuration of builds for your own system and architecture with just the tools you want. It also has some awesome wiki articles on "how to get started":http://wiki.github.com/funtoo/metro/quickstartguide, make your own "custom builds":http://wiki.github.com/funtoo/metro/custombuilds, and "explaining its various features":http://wiki.github.com/funtoo/metro. It's a great example of how the Linux community is growing and thriving here on GitHub.
+
+h3. Notably New Projects
+
+*"irccat":http://github.com/RJ/irccat* is a Java IRC bot that is pretty much self-aware. It can read incoming data from a specific ip and port as well as execute commands, scripts, <s>and world domination</s> from inside a channel. Usually this kind of messaging takes a lot of free time or shell scripting, but this project makes it easy to set up and get started writing your own custom actions. What's neater is that "Last.fm uses irccat for everything":http://www.metabrew.com/article/how-we-use-irc-at-lastfm/ from announcing commits, releasing caches on their website, to feeding security camera images into their development channels.
+
+*"vimeo":http://github.com/matthooks/vimeo* API implementations are usually a dime a dozen, but this one is definitely one to watch. Built on "HTTParty":http://github.com/jnunemaker/httparty, wrapped up with "Jeweler":http://github.com/technicalpickles/jeweler, this gem provides both a simple and more granular way of accessing "Vimeo's":http://vimeo.com "API":http://vimeo.com/api-docs/advanced-api-docs.html. It's definitely useful, be it in a new "Shoes":http://github.com/why/shoes app that can play videos from the site or if you're looking to integrate their services into your own projects. It's also a great example project if you're looking to implement your own API based gem and need a good starting point.
+
+*"erlfs":http://github.com/auser/erlfs* is bring cloud computing down the ground by writing their own distributed file system in Erlang. Scaling linearly is the project's goal: the more computers, the more capacity, throughput, and reliable it gets. That's awesome, but how does it work? Well, it "doesn't exactly yet":http://code.google.com/p/erlfs/. If you're interested in learning Erlang or contributing to a fledgling project with an awesome idea, fork away.
+
+h3. Hardcore Forker of the Week
+
+*"xdev":http://github.com/xdev* hosts the PHP and ActionScript work of both "Joshua Rudd (joshuarudd)":http://github.com/joshuarudd and "Charles Mastin":http://github.com/charlesmastin. This team offers some of the most prolific work in their respective languages on GitHub and truly shows how shops can develop their products in an open source world. Their primary projects include two PHP CMSs, "blackbird":http://github.com/xdev/blackbird, a relational data management system that's good at scaffolding and "brickhouse":http://github.com/xdev/brickhouse/tree/master, a seemingly Rails inspired app. They also have some helpful "ActionScript helpers":http://github.com/xdev/a12/tree/master/com/a12 along with a flexible "mediaplayer":http://github.com/xdev/mediaplayer/tree/master that has plenty of demos for you to play with.
+
+If you're wondering how to get on Rebase, it's simple! "Read the Guide!":http://github.com/guides/rebase-howto
+
