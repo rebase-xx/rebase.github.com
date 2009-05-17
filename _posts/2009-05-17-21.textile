@@ -1,0 +1,24 @@
+---
+title: GitHub Rebase 21
+layout: post
+---
+
+Welcome back to Rebase! I've set up a new site as an archive for the column and the latest featured projects at "http://rebase.github.com":http://rebase.github.com. I'd also like to thank everyone who's contacted me about getting their projects written up. Don't hesitate "to bug me":http://github.com/guides/rebase-howto about your project if you would like to see it on the column! 
+
+p=. "!http://farm3.static.flickr.com/2051/3540123430_266364d6a7.jpg!":http://www.schoolersinc.com/meteorites_p_9.htm
+
+h3. Featured Project
+
+*"yajl":http://github.com/lloyd/yajl* is not just another JSON parsing library. It's a wicked fast one that's portable, quite memory efficient, and even supports stream parsing. YAJL also has some pretty slick features on its own, such as comments. Oh? You don't program in C? Well, that's alright, there's bindings for "Objective-C":http://github.com/gabriel/yajl-objc/tree/master, "IO":http://github.com/stevedekorte/io/tree/1b7980096eb65be000518267f1a1df6224901416/addons/Yajl and "Ruby":http://github.com/brianmario/yajl-ruby/tree/master that you can use. The Ruby one is worth a mention since it includes plenty of benchmarks that boast a huge memory savings along with a decent speed increase. If you're serious about JSON and its performance in your app, "check out this project":http://lloyd.github.com/yajl/.
+
+h3. Notably New Projects
+
+*"The Kember Identity":http://github.com/elliottkember/The-Kember-Identity* is based off of a neat concept: Try to find the MD5 hash such that @md5(string) = string@. This elusive object has been dubbed the _Kember Identity Hash_ and is now part of a contest in over 20 languages to attempt to find it. Check out the terms "here":http://elliottkember.com/kember_identity.html, and get hunting!
+
+*"sammy":http://github.com/quirkey/sammy* is a "Sinatra":http://sinatrarb.com inspired way to manage your web application's JavaScript layer with some special sauce added on top of "jQuery":http://jquery.com. The gist is this: define a route and some code that will be executed when your browser visits that URL. There's also support for running validations after a form has been submitted to a URL, which is definitely something that happens in nearly every web app. Some "examples":http://github.com/quirkey/sammy/tree/master/examples/ of how this all works live in the repo and there's also "plenty of documentation":http://code.quirkey.com/sammy/docs/index.html for you to check out.
+
+*"cateye":http://github.com/nfjinjing/cateye* is another Lisp clone written in none other than Haskell. It's definitely a neat outcome of "Write Yourself a Scheme in 48 Hours":http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours and is definitely neat to check out for newcomers to writing interpreters and the language itself. It also supports some wacky syntax, such as Ruby style lambdas and different literals if you're sick of "seeing too many parens":http://xkcd.com/297/.
+
+*"ztest":http://github.com/jaz303/ztest* is a new unit testing library for PHP 5.3. Any project that enables other developers to get testing is notable in my book. This framework already supports plenty of assertions, terminal output, and templates for populating your database with test data. Great! So why aren't you using (or forking) it yet?
+
+*"Erlang-FAQ":http://github.com/matthiasl/Erlang-FAQ* is a awesome knowledge base for those both new and old to this concurrent language. The source now lives here on GitHub, so if you have your own questions or see corrections, you can fork and submit pull requests, and hopefully they will make their way to the "offical Erlang site":http://erlang.org/faq/faq.html. Also, if you're a greenhorn in the ways of Erlang this could be a great resource to dive into.
