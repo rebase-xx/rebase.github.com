@@ -1,6 +1,6 @@
 ---
 layout: master
-title: archive
+title: Archive
 ---
 <ul id="archive">
 {% for post in site.posts %}
