@@ -7,18 +7,22 @@ This week it's Rebase Book Edition! There's plenty of documentation projects goi
 
 p=. "!http://farm3.static.flickr.com/2187/2195378097_8b2f7d329a_m.jpg!":http://www.flickr.com/photos/voxtheory/2195378097/
 
-*"Programming Pearls":http://github.com/grosser/programming_pearls/tree* is a rewrite of the book from "Bell Labs":http://www.cs.bell-labs.com/cm/cs/pearls/ that's in Ruby instead of C. This has some great examples of algorithms that are both efficient and elegant and is definitely worth a read.
+*"Vim Recipes":http://github.com/runpaint/vim-recipes* is a work-in-progress cookbook for all things "Vim":http://vim.org. Learn how to use this awesome editor, extend and customize it to your will, and more. There's a "HTML":http://vim.runpaint.org/toc/ and "PDF":http://vim.runpaint.org/vim-recipes.pdf version available for your consumption.
 
-*"Git Community Book":http://github.com/schacon/gitbook/tree* is one of the best resources online to learn about Git. If you're just making your first commits then this is a great way to quickly become a Git guru. Even if you've been deep within interactive rebases and octopus merges you're bound to find something new by persuing "this great site":http://book.git-scm.com.
+*"Sinatra Book":http://github.com/sinatra/sinatra-book* aims to be a tutorial and recipes that teaches one to use "Sinatra":http://sinatrarb.com, the classy Ruby web framework. So far, it contains plenty of information about how to get started and some instructions on deployment. Pick up the book "here":http://sinatra-book.gittr.com/.
 
-*"The Ruport Book":http://github.com/ruport/book/tree/master* goes into detail on how to use "Ruport":http://github.com/ruport/ruport/tree/master in nearly every manner concievable to make your life easier when generating reports. Check out the outline "here":http://ruportbook.com/outline.html.
+*"Programming Pearls":http://github.com/grosser/programming_pearls* is a rewrite of the book from "Bell Labs":http://www.cs.bell-labs.com/cm/cs/pearls/ that's in Ruby instead of C. This has some great examples of algorithms that are both efficient and elegant and is definitely worth a read.
 
-*"The Book of Recess":http://github.com/recess/the-book-of-recess/tree/master* aims to help readers enjoy PHP development while using the "Recess":http://www.recessframework.org/ framework. "The book":http://www.recessframework.org/book/html/index.html explains the structure, architecture, and how to contribute back your own changes to the framework.
+*"Git Community Book":http://github.com/schacon/gitbook* is one of the best resources online to learn about Git. If you're just making your first commits then this is a great way to quickly become a Git guru. Even if you've been deep within interactive rebases and octopus merges you're bound to find something new by persuing "this great site":http://book.git-scm.com.
 
-*"Journey to Ramaze":http://github.com/manveru/ramaze-book/tree* covers everything a web developer needs to know to get up and running with "Ramaze":http://ramaze.net. If you're not a fan of the current Ruby web frameworks like Rails, Sinatra, or Merb, "this may be worth a read":http://book.ramaze.net/.
+*"The Ruport Book":http://github.com/ruport/book* goes into detail on how to use "Ruport":http://github.com/ruport/ruport/master in nearly every manner concievable to make your life easier when generating reports. Check out the outline "here":http://ruportbook.com/outline.html.
 
-*"Common Java Cookbook":http://github.com/tobrien/common-java-cookbook/tree* contains a tome of information about using open source Java frameworks like Lucene and Velocity to get things done. It also covers basic algorithms and tasks that nearly any Java programmer will need to do at some point. Brush up "here":http://www.discursive.com/books/cjcook/reference/book.html.
+*"The Book of Recess":http://github.com/recess/the-book-of-recess* aims to help readers enjoy PHP development while using the "Recess":http://www.recessframework.org/ framework. "The book":http://www.recessframework.org/book/html/index.html explains the structure, architecture, and how to contribute back your own changes to the framework.
 
-*"The Merb Open Source Book":http://github.com/mattetti/merb-book/tree/master* is the leading guide on one of the leanest web frameworks out there, "Merb":http://merbivore.com. It's also been translated into quite a few languages. "Read up here.":http://book.merbist.com/
+*"Journey to Ramaze":http://github.com/manveru/ramaze-book* covers everything a web developer needs to know to get up and running with "Ramaze":http://ramaze.net. If you're not a fan of the current Ruby web frameworks, "this may be worth a read":http://book.ramaze.net/.
 
-Users have also been doing some off the wall things with "Gist":http://gist.github.com, such as sharing recipes like "japanese curry":http://gist.github.com/57898. If you know of some off-the-wall uses of GitHub, feel free to point them out and maybe they'll get on a future edition of Rebase!
+*"Common Java Cookbook":http://github.com/tobrien/common-java-cookbook* is a tome that contains instructions for using open source Java frameworks like "Lucene":http://lucene.apache.org/java/docs/ and "Velocity":http://velocity.apache.org/ to get things done. It also covers basic algorithms and tasks that nearly every Java programmer will need to do at some point. Brush up "here":http://www.discursive.com/books/cjcook/reference/book.html.
+
+*"The Merb Open Source Book":http://github.com/mattetti/merb-book* is the leading guide on one of the leanest web frameworks out there, "Merb":http://merbivore.com. It's also been translated into quite a few languages. "Read up here.":http://book.merbist.com/
+
+Huge thanks to "runpaint":http://github.com/runpaint for pointing out most of these awesome projects.
