@@ -1,0 +1,21 @@
+---
+title: GitHub Rebase 23
+layout: post
+published: false
+---
+
+It's Rebase time once again!
+
+p=. !lol!
+
+h3. Featured Project
+
+*"clojure":http://github.com/richhickey/clojure/tree* is a functional programming language based on Lisp that runs on the Java Virtual machine. It just hit a pretty huge milestone, version 1.0, and it's freely available for you to fork right here on GitHub. Like many other dynamic languages it offers an interactive console, and even has extended support for concurrent programming. There's quite a few screencasts about using the language over at "blip.tv":http://clojure.blip.tv/ along with plenty of documentation at their "homepage":http://clojure.org/. Want to see Clojure in action? Try out "ring":http://github.com/mmcgrana/ring/tree/master or "compokure":http://github.com/weavejester/compojure/tree/master, both web frameworks, or "incanter":http://github.com/liebke/incanter/tree/master, a statistical computing and graphics environment. If you're into functional programming and want to harness its power on the JVM, give this language a look.
+
+h3. Notably New Projects
+
+http://github.com/mintdigital/hemlock/tree
+http://github.com/trptcolin/tictactoe-scala/tree
+http://github.com/toastdriven/django-haystack/tree
+http://github.com/lenary/ginatra/tree/master
+http://github.com/jslewis/tasks/tree
