@@ -5,7 +5,7 @@ layout: post
 
 It's Rebase time once again!
 
-p=. !http://farm4.static.flickr.com/3331/3626903927_2710450a4d_m.jpg!
+p=. !http://farm4.static.flickr.com/3331/3626903927_2710450a4d.jpg?v=0!
 
 h3. Featured Project
 
@@ -15,8 +15,10 @@ h3. Notably New Projects
 
 *"hemlock":http://github.com/mintdigital/hemlock/tree* is a new "Adobe Flex":http://www.adobe.com/products/flex/ based framework that combines the powers of Flash and "XMPP":http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol through "ejabberd":http://www.ejabberd.im/ to create some killer web applications. (I know, that pun was terrible.) There's plenty of "examples":http://hemlock-kills.com/showcase already on "their site":http://hemlock-kills.com/, and make sure to peruse their "Learn page":http://hemlock-kills.com/learn to see how this all comes together.
 
-*"ginatra":http://github.com/lenary/ginatra/tree/master* mixes together everyone's favorite source code management system with "Sinatra":http://www.sinatrarb.com to produce one classy looking "gitweb":http://git.or.cz/gitwiki/Gitweb clone. Don't take my word for it though, "check it out for yourself":http://ginatra.lenary.co.uk/ If you're the type that likes to view your git history locally in your browser, set aside some time to get this working for your repositories and you won't be let down.
+*"rip":http://github.com/defunkt/rip* is a brand new packaging system for Ruby that provides a ridiculously useful alternative to those used to dealing with "RubyGems":http://rubygems.org. Armed with the ability to install packages from multiple sources, the sharing of virtual environments, dependency checking at install time instead of at runtime and more, this library is definitely going to change the game for those doing serious Ruby work. The project's "readme":http://github.com/defunkt/rip/tree/master and "homepage":http://hellorip.com has plenty of information, and be sure to check out some of the "various":http://www.rubyinside.com/rip-ruby-packaging-system-1837.html "blog":http://www.infoq.com/news/2009/06/rip "posts":http://jameswilding.net/2009/06/13/rip/ about it. 
 
 *"django-haystack":http://github.com/toastdriven/django-haystack/tree* is the latest and greatest search plugin for "the web framework for perfectionists with deadlines":http://django.org. Hook it up to Solr, Whoosh or Xapian and "get searching":http://haystacksearch.org/. With an API that claims to "make any Djangonaut feel right at home":http://haystacksearch.org/docs, you're sure to save some time looking through your site's data if you check out this project first.
+
+*"ginatra":http://github.com/lenary/ginatra/tree/master* mixes together everyone's favorite source code management system with "Sinatra":http://www.sinatrarb.com to produce one classy looking "gitweb":http://git.or.cz/gitwiki/Gitweb clone. Don't take my word for it though, "check it out for yourself":http://ginatra.lenary.co.uk/ If you're the type that likes to view your git history locally in your browser, set aside some time to get this working for your repositories and you won't be let down.
 
 *"tictactoe-scala":http://github.com/trptcolin/tictactoe-scala/tree* is pretty self-explanatory, but could be a fun start for those willing to take a look at "Scala":http://www.scala-lang.org/ for its "incredible scaling power":http://www.slideshare.net/al3x/why-scala-presentation or even those who want to have "a website that can handle over 5000 requests per minute":http://www.scala-lang.org/node/1008. I tend to learn more by reading a game's code than a queueing system or web server, and I'm hoping you are as well.
