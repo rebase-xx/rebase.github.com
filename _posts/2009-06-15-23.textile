@@ -1,0 +1,22 @@
+---
+title: GitHub Rebase 23
+layout: post
+---
+
+It's Rebase time once again!
+
+p=. !http://farm4.static.flickr.com/3331/3626903927_2710450a4d_m.jpg!
+
+h3. Featured Project
+
+*"clojure":http://github.com/richhickey/clojure/tree* is a functional programming language based on "Lisp":http://xkcd.com/224/ that runs on the Java Virtual Machine. It recently hit a "pretty huge milestone":http://clojure.blogspot.com/2009/05/clojure-10.html and is now freely available for you to fork right here on GitHub. There's quite a few screencasts about using the language over at "blip.tv":http://clojure.blip.tv/ along with plenty of documentation at their "homepage":http://clojure.org/. Want to see Clojure in action? Try out "ring":http://github.com/mmcgrana/ring/tree/master or "compojure":http://github.com/weavejester/compojure/tree/master, both web frameworks, or "incanter":http://github.com/liebke/incanter/tree/master, a statistical computing and graphics environment. If you're into functional programming and want to harness its power on the JVM, give this language a look.
+
+h3. Notably New Projects
+
+*"hemlock":http://github.com/mintdigital/hemlock/tree* is a new "Adobe Flex":http://www.adobe.com/products/flex/ based framework that combines the powers of Flash and "XMPP":http://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol through "ejabberd":http://www.ejabberd.im/ to create some killer web applications. (I know, that pun was terrible.) There's plenty of "examples":http://hemlock-kills.com/showcase already on "their site":http://hemlock-kills.com/, and make sure to peruse their "Learn page":http://hemlock-kills.com/learn to see how this all comes together.
+
+*"ginatra":http://github.com/lenary/ginatra/tree/master* mixes together everyone's favorite source code management system with "Sinatra":http://www.sinatrarb.com to produce one classy looking "gitweb":http://git.or.cz/gitwiki/Gitweb clone. Don't take my word for it though, "check it out for yourself":http://ginatra.lenary.co.uk/ If you're the type that likes to view your git history locally in your browser, set aside some time to get this working for your repositories and you won't be let down.
+
+*"django-haystack":http://github.com/toastdriven/django-haystack/tree* is the latest and greatest search plugin for "the web framework for perfectionists with deadlines":http://django.org. Hook it up to Solr, Whoosh or Xapian and "get searching":http://haystacksearch.org/. With an API that claims to "make any Djangonaut feel right at home":http://haystacksearch.org/docs, you're sure to save some time looking through your site's data if you check out this project first.
+
+*"tictactoe-scala":http://github.com/trptcolin/tictactoe-scala/tree* is pretty self-explanatory, but could be a fun start for those willing to take a look at "Scala":http://www.scala-lang.org/ for its "incredible scaling power":http://www.slideshare.net/al3x/why-scala-presentation or even those who want to have "a website that can handle over 5000 requests per minute":http://www.scala-lang.org/node/1008. I tend to learn more by reading a game's code than a queueing system or web server, and I'm hoping you are as well.
