@@ -1,0 +1,24 @@
+---
+title: GitHub Rebase 24
+layout: post
+---
+
+Welcome back to Rebase! Want your project featured? Check out the guidelines for what I look for here, and remember: the more information on your README/project page the better!
+
+p=. "!http://farm4.static.flickr.com/3173/3630164105_c02712427e_o.jpg!":http://www.amazon.com/Good-Git-Together-Jon-Hendricks/dp/B000H3097O
+
+h3. Featured Project
+
+*"blue-ridge":http://github.com/relevance/blue-ridge* does what many thought was difficult, nay, impossible: test JavaScript, and easily! This is a testing framework that combines the power of Rhino, Screw.Unit, Smoke, and env.js and allows you test the core logic behind your JS. This is built right into your Rails testing framework of choice, and it even has an interactive console so you can debug your code outside of using a browser or Firebug. Check out this sample application to see how to get started. Now that it's "ridiculously simple":http://blog.thinkrelevance.com/2009/5/12/blue-ridge-1-0-javascript-unit-testing-for-rails-scandalous to test your JavaScript, why are you waiting? @script/plugin install@ away!
+
+h3. Notably New Projects
+
+*"PNGSquash":http://github.com/msanders/PNGSquash* is for those who love OSX apps and smaller images. Save some bandwidth and some frustration by allowing this app to crush your PNGs for you. Pick from your favorite algorithm for shaving bytes off images, and "literally squash":http://img29.imageshack.us/img29/5589/squash.png those bits down. Download it here or clone away.
+
+*"loli":http://github.com/nfjinjing/loli* is a Sinatra-inspired web development DSL that is based on Hack (which is based on Rack). The result? A neat way to express a web application that's both classy and extremely functional. It's already got some great view template support, including Rails-inspired partials and layouts. If you're living in the world of Monads and lambda calculus along with that of the trendy web designer, give this project a look.
+
+*"v8-gl":http://github.com/philogb/v8-gl* combines the ubiquitious graphics engine, OpenGL, with the speed demon of a JavaScript interpreter, v8. The result are bindings for creating graphical apps in JS instead of C/C++. This project aims to be a full toolkit, but right now it's just getting the bindings down so everything is possible in pure JS. The results so far look pretty stunning, and I'm sure this project could use your help if you're of the visual/graphical/gaming persuasion. Get forking!
+
+*"bananajour":http://github.com/toolmantim/bananajour* 
+
+*"Palette":http://github.com/athoune/Palette*
