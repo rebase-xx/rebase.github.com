@@ -1,6 +1,7 @@
 ---
 title: GitHub Rebase 24
 layout: post
+published: false
 ---
 
 Welcome back to Rebase! Want your project featured? Check out the guidelines for what I look for here, and remember: the more information on your README/project page the better!
