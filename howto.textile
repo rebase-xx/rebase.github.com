@@ -1,0 +1,24 @@
+---
+title: HOWTO
+layout: master
+---
+
+h2. HOWTO
+
+This page goes over some of the guidelines that are used to determine who and what gets featured on the GitHub Rebase column. If you're wondering how to get noticed, look no further! Also be aware that language diversity is encouraged throughout the column, so don't be afraid if your project isn't in Ruby or one of the other major languages in use.
+
+Feel free to send "qrush":http://github.com/qrush a message if you would like to make sure that you're considered. Going through the Inbox is a lot easier than searching through the "Languages":http://github.com/languages pages, so think of this as cutting the line, but no one will give you dirty looks.
+ 
+h2. How to be the featured project
+ 
+* Host your project here on GitHub (Obvious, but should be stated!)
+* Somewhat mature codebase, it's being used by others than the author. Out of alpha at least.
+* Decent documentation, be it wikis, code docs, a GitHub page, or perhaps a separate project website
+* Purpose of the project is clearly defined and easy to find
+* Be something fun and useful to others!
+ 
+h2. How to be a notably new project
+ 
+* Project should have been created in the last week or two from when the column is written (usually on Sundays)
+* README is filled out, or some blog post/page is available to determine goals of the project
+* Build something fun and useful to others!

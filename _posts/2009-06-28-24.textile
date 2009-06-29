@@ -1,25 +1,25 @@
 ---
 title: GitHub Rebase 24
 layout: post
-published: false
 ---
 
-Welcome back to Rebase! Want your project featured? Check out the guidelines for what I look for here, and remember: the more information on your README/project page the better!
+Welcome back to Rebase! Want your project featured? Check out the "guidelines":http://rebase.github.com/howto.html and remember: the more information on your README/project page the better!
 
-p=. "!http://farm4.static.flickr.com/3173/3630164105_c02712427e_o.jpg!":http://www.amazon.com/Good-Git-Together-Jon-Hendricks/dp/B000H3097O
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/git-street-sign.jpg!:http://nakedlunch.org/events/paris/
 
 h3. Featured Project
 
-*"blue-ridge":http://github.com/relevance/blue-ridge* does what many thought was difficult, nay, impossible: test JavaScript, and easily! This is a testing framework that combines the power of Rhino, Screw.Unit, Smoke, and env.js and allows you test the core logic behind your JS. This is built right into your Rails testing framework of choice, and it even has an interactive console so you can debug your code outside of using a browser or Firebug. Check out this sample application to see how to get started. Now that it's "ridiculously simple":http://blog.thinkrelevance.com/2009/5/12/blue-ridge-1-0-javascript-unit-testing-for-rails-scandalous to test your JavaScript, why are you waiting? @script/plugin install@ away!
+*"blue-ridge":http://github.com/relevance/blue-ridge* is a no-hassle JavaScript testing framework. Built on the same principles as Rails such as Convention over Configuration, this combines the power of "Rhino":http://www.mozilla.org/rhino/, "Screw.Unit":http://github.com/nkallen/screw-unit/tree/master, "Smoke":http://github.com/andykent/smoke/tree/master, and "env.js":http://github.com/jeresig/env-js/tree/master so you can test the core logic behind your JS without having to deal with a browser. This is built right into your Rails testing framework of choice, and it even has an interactive console so you can debug your code instead of using a tool like Firebug. By default it assumes you're using jQuery, but Prototype can be swapped in with barely any effort. Check out this "great blog post":http://blog.thinkrelevance.com/2009/5/12/blue-ridge-1-0-javascript-unit-testing-for-rails-scandalous to see how to get started, and browse around "a sample application":http://github.com/relevance/blue-ridge-sample-app to see it in action.
 
 h3. Notably New Projects
 
-*"PNGSquash":http://github.com/msanders/PNGSquash* is for those who love OSX apps and smaller images. Save some bandwidth and some frustration by allowing this app to crush your PNGs for you. Pick from your favorite algorithm for shaving bytes off images, and "literally squash":http://img29.imageshack.us/img29/5589/squash.png those bits down. Download it here or clone away.
+*"PNGSquash":http://github.com/msanders/PNGSquash* is for those who love OSX apps and smaller images. Save some bandwidth and some frustration by allowing this app to crush your PNGs for you. Pick from your favorite algorithm for shaving bytes off images such as "PNGCrush":http://en.wikipedia.org/wiki/Pngcrush or "OptiPNG":http://en.wikipedia.org/wiki/OptiPNG to "literally squash":http://img29.imageshack.us/img29/5589/squash.png those bits down. Download the app "here":http://s3.amazonaws.com/PNGSquash/PNGSquash.tar.gz if you'd like to try it out.
 
-*"loli":http://github.com/nfjinjing/loli* is a Sinatra-inspired web development DSL that is based on Hack (which is based on Rack). The result? A neat way to express a web application that's both classy and extremely functional. It's already got some great view template support, including Rails-inspired partials and layouts. If you're living in the world of Monads and lambda calculus along with that of the trendy web designer, give this project a look.
+*"loli":http://github.com/nfjinjing/loli* is a Haskell web development DSL inspired by "Sinatra":http://www.sinatrarb.com that can run on "Hack":http://blog.snoyman.com/2009/06/28/hack-introduction/ (which is based on "Rack":http://rack.rubyforge.org/). This is a neat way to express a web application that's both classy and extremely functional. It's already got some great view template support, including Rails-inspired partials and layouts.
 
-*"v8-gl":http://github.com/philogb/v8-gl* combines the ubiquitious graphics engine, OpenGL, with the speed demon of a JavaScript interpreter, v8. The result are bindings for creating graphical apps in JS instead of C/C++. This project aims to be a full toolkit, but right now it's just getting the bindings down so everything is possible in pure JS. The results so far look pretty stunning, and I'm sure this project could use your help if you're of the visual/graphical/gaming persuasion. Get forking!
+*"v8-gl":http://github.com/philogb/v8-gl* fuses the ubiquitious graphics engine, "OpenGL":http://www.opengl.org, with the speed demon of a JavaScript interpreter, "v8":http://code.google.com/p/v8/. The result is that you can code graphical apps in JS instead of C/C++. This project aims to be a full toolkit, but right now it's just getting the bindings down so everything is possible in pure JS. The progress so far "looks pretty stunning":http://blog.thejit.org/wp-content/v8gl2.png, and I'm sure this project could use your help if you're of the graphical/gaming type.
 
-*"bananajour":http://github.com/toolmantim/bananajour* 
+*"bananajour":http://github.com/toolmantim/bananajour* is a wacky name for a slick interface to Git repositories served up over "Bonjour":http://en.wikipedia.org/wiki/Bonjour_(software). Think of this like "gitjour":http://github.com/chad/gitjour/tree/master, but with a really nice web application on top of it. Why is this useful? Well, if you happen to be attending "certain gatherings":http://railscamps.com/ without internet access, this is a great way to share your code. If you can't connect to GitHub, this looks like your best option to get your Git on.
 
-*"Palette":http://github.com/athoune/Palette*
+*"Palette":http://github.com/athoune/Palette* is little Python project that uses the "Python Imaging Library":http://www.pythonware.com/products/pil/ to create a color map of any picture. The most interesting visualization it can create is a 'star' color wheel, where the length of the ray is proportional to the hue. "Here's":http://cloud.github.com/downloads/rebase/rebase.github.com/octocat__star.png what it looks like for our dear friend "the Octocat":http://github.com/mojombo/github-media/raw/510a0a44cf602c62cd1657894bc69b95ac2fdf10/octocats/octocat.png. This could be a neat little project to hack on if you're new to Python and would like something a bit visual to hack on.
