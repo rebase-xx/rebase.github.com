@@ -1,0 +1,28 @@
+---
+title: GitHub Rebase 25
+layout: post
+---
+
+It's the 25th edition of Rebase! If you're feeling nostalgic and want to dive through the previous issues, check out the "archive here":http://rebase.github.com/archive.html.
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/bienvenue-au-git.jpg!
+
+h3. Featured Project
+
+*"pinax":http://github.com/pinax/pinax/tree/master* is a Django-based platform for building awesome web applications quickly. This combination of reusable apps and strong conventions can help get your site off the ground in no time. Nicholas Tollervey puts it best in this "blog post":http://ntoll.org/article/pinax-and-lego:
+
+<blockquote>In our analogy, Django is Lego bricks: it gives you the building blocks you need to build interesting things on the web. [...] Pinax is a collection of Lego sets: it gives you a set of off-the-shelf components commonly used in web-development: a wiki, OpenID, Twitter clone and so on</blockquote>
+
+Pinax is packed with "plenty of features":http://pinaxproject.com, not to mention a "decent set of docs":http://pinaxproject.com/docs/0.5.1/. Check it out in action on "Cloud27":http://cloud27.com/, a social networking site built just to show off its features, and definitely check out "this talk from DjangoCon 2008":http://www.youtube.com/watch?v=1J91Ownq-7g about the framework.
+
+h3. Notably New Projects
+
+*"data-baby-names":http://github.com/hadley/data-baby-names/tree/master* is a quick study using R and Ruby to produce some neat graphs about the top 1000 baby names from 1880 to present day. For stats nuts or perhaps "new parents":http://twitpic.com/a0ds5, this could be an interesting diversion from your normal routine.
+
+*"merle":http://github.com/joewilliams/merle/tree/master* isn't exactly new, but it is sure is notable! This Erlang based "memcached":http://www.danga.com/memcached/ client is the slickest way to interface with everyone's favorite object caching system. If you're writing a serious web app with Erlang, chances are it's going to need something as high performance solid as memcached, so save yourself some frustration and check out this first. "Read up":http://github.com/joewilliams/merle/blob/master/README or "peruse the docs":http://joewilliams.github.com/merle/doc/ if you find yourself needing to integrate some caching in your applicaiton.
+
+*"weary":http://github.com/mwunsch/weary/tree/master* souls need REST, according to this library. Think of this library as the after-"HTTParty":http://github.com/jnunemaker/httparty/. The DSL for declaring a HTTP resource is extremely clean, and it's really simple to dive down and tinker with the details if necessary. This gem also uses "Crack":http://github.com/jnunemaker/crack/tree/master to parse json and xml that your webservice du jour provides.
+
+*"sykobot":http://github.com/sykopomp/sykobot/tree/master* is an IRC bot from another universe. No really, it's the offical bot for #archlinux on Freenode, and it's got google search, quoting, and "plenty of more fun goodies":http://github.com/jelly/sykobot/blob/b06c621836b2d3f610a26deb45bc72313bc4d24d/README.mkdn implemented already. The bot is written in Lisp, and it's already got "several active contributors":http://github.com/sykopomp/sykobot/network even though it's been around for nearly 2 weeks. Get forking!
+
+*"CssMerger":http://github.com/gudmundurh/CssMerger/tree/master* is a C# app that allows you to develop css in separate files so some cohesion and sanity can be kept while designing your site, and then serves up a single file once deployed. Basically, it works by replacing <code>@import</code> directives with your desired css file. If you're using ASP.NET you should definitely take a look into how this can help you.
