@@ -1,18 +1,24 @@
 ---
 title: GitHub Rebase 26
 layout: post
-published: false
 ---
+
+Welcome to Rebase #26! If you've got an interesting project you'd like to see on the column feel free to shoot me a message. This week was a little HTTP heavy, which is fine for webdevs like myself but I'd like to see some more diversity. I follow some simple guidelines that you can check out "here":http://rebase.github.com/howto.html too.
 
 p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/i-heard-you-like-dvcs.png!
 
 h3. Featured Project
 
-http://github.com/pokeb/asi-http-request/tree/master
+"asi-http-request":http://github.com/pokeb/asi-http-request/tree/master is the "Steven Seagal":http://www.movie-moron.com/wp-content/gallery/various/Steven-Seagal-Emotion.jpg of HTTP libraries for Objective-C. Drop this guy into your OSX or iPhone application and it's guaranteed to kick ass. Well, at least your HTTP calls will. The library makes it easy to interact with RESTful services as well as submit multipart/form-data if you're in the need for it. It also has a boatload of other features including progress delegates, a streamlined interface to uploading files from disk, and background/queueing support. Take a gander at the docs "here":http://allseeing-i.com/ASIHTTPRequest/Changelog, including a nice look at what applications are using it. "Fork away":http://github.com/pokeb/asi-http-request/tree, "punk":http://3.bp.blogspot.com/_uzU4-m_CMB8/Rsi8ysD2yoI/AAAAAAAAAOY/b254LSTxpWY/s320/Seagal.jpg.
 
 h3. Notably New Projects
 
-http://github.com/aanand/deadweight/tree/master
-http://github.com/ThomasHabets/weberl/tree/master
-http://github.com/marclove/jquery-visualize/tree/master
-http://github.com/igrigorik/tokyo-recipes/commits/master
+"deadweight":http://github.com/aanand/deadweight/tree/master deals with a common problem that many developers face: unused "CSS rules":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg. What do you do with them? Comment them out? Leave them for that annoying team member to deal with instead? This project takes the higher ground by figuring out by analyzing your stylesheets and some given views to determine what selectors you can safely dispose of. You can even use "Mechanize":http://mechanize.rubyforge.org/mechanize/ to submit forms and make sure you're shedding your unnecessary CSS.
+
+"jquery-visualize":http://github.com/marclove/jquery-visualize/tree/master is a really nice way to get simple graphs in your application that's both accessible (read: degrades into tables) and really "spiffy looking":http://www.filamentgroup.com/lab/jquery_visualize_plugin_accessible_charts_graphs_from_tables_html5_canvas/. It's as simple as filling up a table with data and then calling @$('table').visualize();@. Of course, there's plenty of configuration options like colors, the type of graph, line weights, and more. "Try out a demo":http://www.filamentgroup.com/lab/jquery_visualize_plugin_accessible_charts_graphs_from_tables_html5_canvas/ or "download it for yourself":http://github.com/marclove/jquery-visualize/tree/master.
+
+"tokyo-recipes":http://github.com/igrigorik/tokyo-recipes/tree/master is a collection of Lua scripts that plug directly into "Tokyo Cabinet":http://tokyocabinet.sourceforge.net/, an extremely efficient and speedy key-value store. There's plenty of awesome recipes in this cookbook including "expiring data based on TTL":http://github.com/igrigorik/tokyo-recipes/tree/master/expire, "map reduce":http://github.com/igrigorik/tokyo-recipes/blob/master/map-reduce and even a simple "high-low betting game":http://github.com/igrigorik/tokyo-recipes/blob/master/high-low-game If you're just getting started on writing your own Lua scripts for Tokyo Cabinet or are looking for some real examples of how you can use the plugins to your advantage, take a look at "this repo":http://github.com/igrigorik/tokyo-recipes/tree.
+
+"weberl":http://github.com/ThomasHabets/weberl/tree/master is a small Erlang webserver that's based on "web.py":http://webpy.org/. It's essentially a bare-bones web framework that doesn't assume much, which is certainly ideal if you're just getting off the ground or you don't like too much baggage. This project has just started up and could certainly use the help of both experienced and greenhorn Erlang coders if you're up for it. Go forth and "clone":http://github.com/ThomasHabets/weberl/tree!
+
+"Redisent":http://github.com/jdp/Redisent is an interface to the "Redis":http://github.com/antirez/redis/tree key value-store for "PHP":http://github.com/php. Unlike memcached, Redis persists data, and now with this library you can easily hook in your code to it. It also supports clustering, which allows you to hook up more than one key-value store and set aliases for each. Read up more about Redisent on this "great blog post/tutorial":http://blog.justinpoliey.com/a-redis-interface-for-modest-developers for using it.
