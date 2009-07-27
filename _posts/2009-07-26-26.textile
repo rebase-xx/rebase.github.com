@@ -3,7 +3,7 @@ title: GitHub Rebase 26
 layout: post
 ---
 
-Welcome to Rebase #26! If you've got an interesting project you'd like to see on the column feel free to shoot me a message. I'd love to see more themed Rebase columns, like the "book edition":http://rebase.github.com/22.html. Perhaps we could have a JSON edition, a hardcore C edition, unknown language edition, and so on. I follow some simple guidelines that you can check out "here":http://rebase.github.com/howto.html too.
+Welcome to Rebase #26! If you've got an interesting project you'd like to see on the column feel free to shoot me a message. I'd love to see more themed Rebases, like the "book edition":http://rebase.github.com/22.html. Perhaps we could have a JSON edition, a hardcore C edition, unknown language edition, and so on. I follow some simple guidelines that you can check out "here":http://rebase.github.com/howto.html too.
 
 p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/i-heard-you-like-dvcs.png!":http://resiak.livejournal.com/59945.html
 
@@ -13,7 +13,7 @@ h3. Featured Project
 
 h3. Notably New Projects
 
-"deadweight":http://github.com/aanand/deadweight/tree/master deals with a common problem that many developers face: unused "CSS rules":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg. What do you do with them? Comment them out? Leave them for that annoying team member to deal with instead? This project takes the higher ground by figuring out by analyzing your stylesheets and some given views to determine what selectors you can safely dispose of. You can even use "Mechanize":http://mechanize.rubyforge.org/mechanize/ to submit forms and make sure you're shedding your unnecessary CSS.
+"deadweight":http://github.com/aanand/deadweight/tree/master deals with a common problem that many developers face: unused "CSS rules":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg. What do you do with them? Comment them out? Leave them for that annoying team member to deal with instead? This project takes the higher ground by analyzing your stylesheets and some given views to determine what selectors you can safely dispose of. You can even use "Mechanize":http://mechanize.rubyforge.org/mechanize/ to submit forms and make sure you're shedding your unnecessary CSS.
 
 "jquery-visualize":http://github.com/marclove/jquery-visualize/tree/master is a really nice way to get simple graphs in your application that's both accessible (read: degrades into tables) and really "spiffy looking":http://www.filamentgroup.com/lab/jquery_visualize_plugin_accessible_charts_graphs_from_tables_html5_canvas/. It's as simple as filling up a table with data and then calling @$('table').visualize();@. Of course, there's plenty of configuration options like colors, the type of graph, line weights, and more. "Try out a demo":http://www.filamentgroup.com/lab/jquery_visualize_plugin_accessible_charts_graphs_from_tables_html5_canvas/ or "download it for yourself":http://github.com/marclove/jquery-visualize/tree/master.
 
