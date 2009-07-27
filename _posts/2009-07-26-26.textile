@@ -3,9 +3,9 @@ title: GitHub Rebase 26
 layout: post
 ---
 
-Welcome to Rebase #26! If you've got an interesting project you'd like to see on the column feel free to shoot me a message. This week was a little HTTP heavy, which is fine for webdevs like myself but I'd like to see some more diversity. I follow some simple guidelines that you can check out "here":http://rebase.github.com/howto.html too.
+Welcome to Rebase #26! If you've got an interesting project you'd like to see on the column feel free to shoot me a message. I'd love to see more themed Rebase columns, like the "book edition":http://rebase.github.com/22.html. Perhaps we could have a JSON edition, a hardcore C edition, unknown language edition, and so on. I follow some simple guidelines that you can check out "here":http://rebase.github.com/howto.html too.
 
-p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/i-heard-you-like-dvcs.png!
+p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/i-heard-you-like-dvcs.png!":http://resiak.livejournal.com/59945.html
 
 h3. Featured Project
 
