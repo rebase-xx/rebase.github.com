@@ -1,0 +1,18 @@
+---
+title: GitHub Rebase 26
+layout: post
+published: false
+---
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/i-heard-you-like-dvcs.png!
+
+h3. Featured Project
+
+http://github.com/pokeb/asi-http-request/tree/master
+
+h3. Notably New Projects
+
+http://github.com/aanand/deadweight/tree/master
+http://github.com/ThomasHabets/weberl/tree/master
+http://github.com/marclove/jquery-visualize/tree/master
+http://github.com/igrigorik/tokyo-recipes/commits/master
