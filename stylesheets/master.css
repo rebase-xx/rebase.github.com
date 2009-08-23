@@ -207,11 +207,12 @@ div.related {
 }
 
 #footer {
-  margin-bottom: 2em;
+  margin: 0 auto 2em;
   color: #3E423A;
   font-size: 0.9em;
-  padding: 0.5em;
+  padding: 0.5em 0;
   text-align: center;
+  width: 56em;
 }
 
 .home_box {
