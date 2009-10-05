@@ -1,0 +1,27 @@
+---
+title: GitHub Rebase 28
+published: false
+layout: post
+---
+
+Now that news from the move has slightly settled down, it's Rebase time. As always, if you've got awesome projects "you'd like featured":http://rebase.github.com/howto.html, feel free to send me a message!
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/cheeze.jpg!
+
+h3. Featured Project
+
+http://yaws.hyber.org/
+*"yaws":http://github.com/klacke/yaws* is not just another web server. It's Erlang powered, so you get massive concurrent capabilities right out of the box. It's got some basic support for "dynamic content":http://yaws.hyber.org/dynamic.yaws and plenty of other commonly needed pieces of web functionality that you can see examples of on its "home page":http://yaws.hyber.org/index.yaws. There's also a few web frameworks that use yaws, including "ErlyWeb":http://erlyweb.org/, "Erlang Web":http://www.erlang-web.org/, and "Nitrogen":http://nitrogenproject.com/. Not convinced yet? Check out some recent blogs that benchmark yaws against "Tornado":http://lionet.livejournal.com/42016.html, "nginx":http://www.joeandmotorboat.com/2009/01/03/nginx-vs-yaws-vs-mochiweb-web-server-performance-deathmatch-part-2/, and even "Apache":http://www.sics.se/~joe/apachevsyaws.html. If you're writing a web app that needs the power and speed of Erlang, be sure to look at yaws and its related frameworks first.
+
+h3. Notably New Projects
+
+*"testswarm":http://github.com/jeresig/testswarm* is John Resig of "jQuery":http://github.com/jquery fame's latest adventure in advancing the web. I first saw this demoed at "Developer Day Boston":http://developer-day.com and was completely blown away. It's distributed testing for JavaScript, brought to the max. The server basically gives each client a test suite, and they report the status of the tests back for the given browser. You can then watch results flying back to the server "in real time":http://wiki.github.com/jeresig/testswarm. This is a new kind of approach for dealing with browser testing on a grand scale, and it's definitely worth "a watch":http://testswarm.com to see where it goes.
+
+*"webstats":http://github.com/bloopletech/webstats* is a Ruby-based web interface to monitoring your Linux web server's health. Install the gem, run @webstats@, and you're done. Currently, you can check out CPU usage, load average, memory usage, disk usage, disk activity, and more. This is a cheap way to implement monitoring if you're concerned about it, and it even comes baked in an email and Growl notifier if something goes haywire.
+
+*"Visage":http://github.com/auxesis/visage* is another great option in the Ruby world of server stats apps. Unlike the previous entry, this seems to be more of a long term look at server stats, and even provides some neat "Raphaël":http://raphaeljs.com/ graphs of the "collectd":http://collectd.org/ stats on your system. Check out this "blog post":http://holmwood.id.au/~lindsay/2009/09/08/graphing-collectd-statistics-in-the-browser-with-visage/ for a litttle hint of what it offers, and give it a spin!
+
+*"ClojureX":http://github.com/citizen428/ClojureX is an easy way to install the "Clojure":http://clojure.org/ programming language for OSX. Since it uses submodules that links to the languages' repo here on GitHub, you can stay up to date with the latest features coming out if you want.
+
+
+http://github.com/robbyrussell/oh-my-zsh
