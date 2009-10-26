@@ -13,7 +13,7 @@ h3. Featured Project
 
 h3. Notably New Projects
 
-*"ChicagoBoss":http://github.com/evanmiller/ChicagoBoss* claims to bring together the best of Rails and Django into the world of Erlang. Sounds neat, but hhow exactly does that work? Check out the "MVC examples here":http://www.chicagoboss.org/example.html and even some fledgling "API docs":http://www.chicagoboss.org/api-view.html for how this framework is shaping up. Another neat thing: "Tokyo Tyrant/Cabinet":http://1978th.net/tokyocabinet/ support is built in, so you can key/value store to the list of buzzwords that Boss already has. Get forking!
+*"ChicagoBoss":http://github.com/evanmiller/ChicagoBoss* claims to bring together the best of Rails and Django into the world of Erlang. Sounds neat, but how exactly does that work? Check out the "MVC examples here":http://www.chicagoboss.org/example.html and even some fledgling "API docs":http://www.chicagoboss.org/api-view.html for how this framework is shaping up. Another neat thing: "Tokyo Tyrant/Cabinet":http://1978th.net/tokyocabinet/ support is built in, so you can key/value store to the list of buzzwords that Boss already has. Get forking!
 
 *"Firepicker":http://github.com/thedarkone/firepicker* is a Firefox extension that adds a color picker into "Firebug":http://getfirebug.com/. Now, you won't have to fumble around trying to find a specific application on your OS to do this when you're playing with CSS in Firebug. Secondly, if you're new to XUL and Firefox development in the first place, this is a great project to look at to get started. Check out some screenshots and how to install it "here":http://thedarkone.github.com/firepicker/.
 
