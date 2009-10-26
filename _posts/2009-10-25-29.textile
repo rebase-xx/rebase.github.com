@@ -1,0 +1,20 @@
+--- 
+title: GitHub Rebase 29
+layout: post
+---
+
+Time to get your Rebase on! Send me a message about your project if you want to see it featured here, and please check out the Rebase "howto":http://rebase.github.com/howto.html as well. I'd love to see more than just web development stuff too. (but don't stop that either!) Perhaps a collection of computer graphics related projects? AI? Music? You name it, just "send me a message!":http://github.com/qrush
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/GottaGitItOnLP.jpg!
+
+h3. Featured Project
+
+*"SubSonic":http://github.com/subsonic/SubSonic-3.0* is not your average ORM for .NET. This C# library is a veritable workhorse that follows "convention over configuration":http://en.wikipedia.org/wiki/Convention_over_configuration and even allows developers to choose different data mapping paradigms, one such being "Active Record":http://martinfowler.com/eaaCatalog/activeRecord.html. I wasn't kidding about the workhorse bit: out of the box, it's got support for LINQ, connecting to multiple DBs, and even a "starter app":http://subsonicproject.com/docs/MVC_Starter_Template to get you going. There's an unbelievable amount of information on how to use it with your flavor of .NET on "their wiki":http://subsonicproject.com/docs/, and definitely check out "how this shapes up":http://subsonicproject.com/docs/Comparisons compared to the other available ORMs. Besides, who else can beat screencasts set to "Led Zeppelin":http://subsonicproject.com/docs/The_5_Minute_Demo and "Rush":http://subsonicproject.com/docs/T4_Templates?
+
+h3. Notably New Projects
+
+*"ChicagoBoss":http://github.com/evanmiller/ChicagoBoss* claims to bring together the best of Rails and Django into the world of Erlang. Sounds neat, but hhow exactly does that work? Check out the "MVC examples here":http://www.chicagoboss.org/example.html and even some fledgling "API docs":http://www.chicagoboss.org/api-view.html for how this framework is shaping up. Another neat thing: "Tokyo Tyrant/Cabinet":http://1978th.net/tokyocabinet/ support is built in, so you can key/value store to the list of buzzwords that Boss already has. Get forking!
+
+*"Firepicker":http://github.com/thedarkone/firepicker* is a Firefox extension that adds a color picker into "Firebug":http://getfirebug.com/. Now, you won't have to fumble around trying to find a specific application on your OS to do this when you're playing with CSS in Firebug. Secondly, if you're new to XUL and Firefox development in the first place, this is a great project to look at to get started. Check out some screenshots and how to install it "here":http://thedarkone.github.com/firepicker/.
+
+*"Papervision3D":http://github.com/Papervision3D/Papervision3D*'s readme may be short, but don't let that deter you. It's better if you just "go look for yourself.":http://www.papervision3d.org/ Ok, so it's a fully immersable 3D world written in ActionScript that's open source. Whoever the first person to write a game for this environment is, please invite me to your private beach and/or yacht. There could be a ton of neat ways to implement this: perhaps a more 3D StreetView, planetarium, panoramas, the list goes on and on. Papervision's "dev blog":http://dev.papervision3d.org/ has a lot of neat related links too.
