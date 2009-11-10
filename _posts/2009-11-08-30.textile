@@ -1,6 +1,7 @@
 --- 
 title: GitHub Rebase 30
 layout: post
+published: false
 ---
 
 This is the second of many themed Rebases to come...our first was the "book edition":http://rebase.github.com/22.html. In related news, the column has also been going on for "over a year":http://rebase.github.com/archive.html now! If you've got ideas for projects to feature or themes, don't be afraid to "message me.":http://rebase.github.com/howto.html
