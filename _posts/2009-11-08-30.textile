@@ -1,0 +1,26 @@
+--- 
+title: GitHub Rebase 30
+layout: post
+---
+
+This is the second of many themed Rebases to come...our first was the "book edition":http://rebase.github.com/22.html. In related news, the column has also been going on for "over a year":http://rebase.github.com/archive.html now! If you've got ideas for projects to feature or themes, don't be afraid to "message me.":http://rebase.github.com/howto.html
+
+p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/gitshorty.jpg!":http://gitshorty.net/
+
+h3. Featured Project
+
+"ooc":http://github.com/nddrylliog/ooc is a statically typed, object oriented language with some major functional programming influences that's growing up right here on GitHub. The compiler is currently written in Java, and it boils down to C99 so it can run anywhere. Grab the zip from the Downloads section or clone away and "set it up":http://ooc-lang.org/setup. The language has some "neat features":http://ooc-lang.org/: first class functions you can pass around, a clean @import@/@use@ system that makes Ruby's @require@ look like yesterday's news, and the @cover@ keyword that allows for some really neat abstractions over types and clean interfacing with other C code. If you're a language geek or need a breath of fresh air, "check it out":http://ooc-lang.org/docs/.
+
+h3. Notably New Projects
+
+"rock":http://github.com/nddrylliog/rock is an ooc compiler written in ooc, of course. This has some great examples of quite complex ooc code and aims to replace the Java compiler.
+
+"ooc-sqlite3":http://github.com/kuzux/ooc-sqlite3 is an "SQLite":http://www.sqlite.org/ driver that's also just getting off the ground, but it's starting to pick up some steam. Next stop: a web framework!
+
+"woot":http://github.com/nddrylliog/woot is ooc's first unit testing system, and is headed towards a bright future since it'll be used to test ooc itself. This dogfood is tasty!
+
+"ooc-glew":http://github.com/OneSadCookie/ooc-glew is a ooc/ruby hybrid that hooks in "GLEW":http://glew.sourceforge.net/, a set of "OpenGL":http://www.opengl.org/ bindings into ooc.
+
+"Stirling3D":http://github.com/eagle2com/Stirling3d is also for the graphically minded. This project is a graphics/physics engine that also hooks into OpenGL and is starting to render some neat stuff.
+
+"ooc-yajl":http://github.com/fredreichbier/ooc-yajl is a set of bindings to "yajl":http://lloyd.github.com/yajl/, a former featured project that is a lightning fast JSON parsing library. It's also a neat example of how easy it is to hook into C libraries and how the @.use@ files work.
