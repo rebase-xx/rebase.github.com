@@ -19,7 +19,7 @@ h3. Notably New Projects
 
 "woot":http://github.com/nddrylliog/woot is ooc's first unit testing system, and is headed towards a bright future since it'll be used to test ooc itself. This dogfood is tasty!
 
-"ooc-glew":http://github.com/OneSadCookie/ooc-glew is a ooc/ruby hybrid that hooks in "GLEW":http://glew.sourceforge.net/, a set of "OpenGL":http://www.opengl.org/ bindings into ooc.
+"ooc-glew":http://github.com/OneSadCookie/ooc-glew in "GLEW":http://glew.sourceforge.net/ to open up the power of "OpenGL":http://www.opengl.org/ to ooc. There's also a little Ruby magic baked in to generate the bindings since there's a lot of functions.
 
 "Stirling3D":http://github.com/eagle2com/Stirling3d is also for the graphically minded. This project is a graphics/physics engine that also hooks into OpenGL and is starting to render some neat stuff.
 
