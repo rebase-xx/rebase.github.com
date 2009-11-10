@@ -23,4 +23,4 @@ h3. Notably New Projects
 
 "Stirling3D":http://github.com/eagle2com/Stirling3d is also for the graphically minded. This project is a graphics/physics engine that also hooks into OpenGL and is starting to render some neat stuff.
 
-"ooc-yajl":http://github.com/fredreichbier/ooc-yajl is a set of bindings to "yajl":http://lloyd.github.com/yajl/, a former featured project that is a lightning fast JSON parsing library. It's also a neat example of how easy it is to hook into C libraries and how the @.use@ files work.
+"ooc-yajl":http://github.com/fredreichbier/ooc-yajl is a set of bindings to "yajl":http://lloyd.github.com/yajl/, a "former featured project":http://rebase.github.com/21.html that is a lightning fast JSON parsing library. It's also a neat example of how easy it is to hook into C libraries and how the @.use@ files work.
