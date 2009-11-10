@@ -1,7 +1,6 @@
 --- 
 title: GitHub Rebase 30
 layout: post
-published: false
 ---
 
 This is the second of many themed Rebases to come...our first was the "book edition":http://rebase.github.com/22.html. In related news, the column has also been going on for "over a year":http://rebase.github.com/archive.html now! If you've got ideas for projects to feature or themes, don't be afraid to "message me.":http://rebase.github.com/howto.html
@@ -10,7 +9,7 @@ p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/gitshorty.jpg!"
 
 h3. Featured Project
 
-"ooc":http://github.com/nddrylliog/ooc is a statically typed, object oriented language with some major functional programming influences that's growing up right here on GitHub. The compiler is currently written in Java, and it boils down to C99 so it can run anywhere. Grab the zip from the Downloads section or clone away and "set it up":http://ooc-lang.org/setup. The language has some "neat features":http://ooc-lang.org/: first class functions you can pass around, a clean @import@/@use@ system that makes Ruby's @require@ look like yesterday's news, and the @cover@ keyword that allows for some really neat abstractions over types and clean interfacing with other C code. If you're a language geek or need a breath of fresh air, "check it out":http://ooc-lang.org/docs/.
+"ooc":http://github.com/nddrylliog/ooc is a statically typed, object oriented language with some functional programming hints that's growing up right here on GitHub. The compiler is currently written in Java, and it boils down to C99 so it can run anywhere. Grab the zip from the Downloads section or clone away and "set it up":http://ooc-lang.org/setup. The language has some "neat features":http://ooc-lang.org/: everyone's favorite generic types, a clean @import@/@use@ system that makes Ruby's @require@ look like yesterday's news, and the @cover@ keyword that allows for some really neat abstractions over types and clean interfacing with other C code. If you're a language geek or need a breath of fresh air, "check it out":http://ooc-lang.org/docs/.
 
 h3. Notably New Projects
 
