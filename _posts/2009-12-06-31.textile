@@ -1,0 +1,26 @@
+--- 
+title: GitHub Rebase 31
+layout: post
+---
+
+Once again it's Rebase time. Let's do this. ("Want in for next time?":http://rebase.github.com/howto.html)
+
+p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/mingus.jpg!":http://www.amazon.com/Better-Git-Your-Soul/dp/B00137QOBS
+
+h3. Featured Project
+
+*"mongo":http://github.com/mongodb/mongo* is a document-oriented database that's bridging the gap between new NoSQL tools and your favorite relational databases. MongoDB is a collection-oriented, schema-free document DB written in C++ that can  scale until your eyes bleed. Along with a slick query functionality, MongoDB offers automatic data replication and fail over if you need it. There's "plenty of drivers":http://www.mongodb.org/display/DOCS/Drivers already available for you to use in your apps today. ("MongoMapper":http://github.com/jnunemaker/mongomapper is my favorite so far) The "developer wiki":http://www.mongodb.org/display/DOCS/Home is vast and has info regarding getting set up, using the DB, and all of the administration tasks you need to know. The best part though: you can "fork the DB":http://github.com/mongodb/mongo right here on GitHub!
+
+h3. Notably New Projects
+
+*"nLess":http://github.com/chrisjowen/nLess* is a port of "LessCSS":http://lesscss.org/ to .NET 3.5. Less brings plenty of awesome helpers into CSS that every developer should love: mixins to promote reuse, variables for colors, and even some simple math operations. Check out how to integrate it with your ASP.NET app "here":http://www.dotlesscss.com/.
+
+*"pbrt-v2":http://github.com/mmp/pbrt-v2* is the second version of the Physically Based Rendering engine, which over the past few years has created some "stunning imagery":http://pbrt.org/gallery.php. If you're up for some intense C++ graphics work, this is for you. For those inclined, there's also a contest "currently running":http://pbrt.org/contest_rules.txt to create an image that will go on the cover of the new book. They're also looking for examples of depth of field, indirect lighting, caustics, subsurface scattering, all which are possible with pbrt. Check out "project's":http://pbrt.org/ site for more info.
+
+*"jaml":http://github.com/edspencer/jaml* is JavaScript templating engine inspired by HAML. No, there's no indentation or compilation, just some create syntactic sugar over @document.createElement@. If you've ever had to deal with the various DOM methods to create elements on the fly, you'll definitely want to look at this project. There's a great tutorial "here":http://edspencer.net/2009/11/jaml-beautiful-html-generation-for-javascript.html on the author's blog, and the project's "GitHub Page":http://edspencer.github.com/jaml/ has just what you need to get started.
+
+*"defender":http://github.com/dvyjones/defender* is game is set on a fictional planet, where the player must defeat waves of invading aliens while protecting astronauts. I mean, this is a Ruby API wrapper for "Defensio":http://defensio.com/, which is a neat spam fighting API that you can hook up to your site. The great part about this specific project is that it's already got a "great set":http://rdoc.info/projects/dvyjones/defender of "YARD":http://yardoc.org/ docs.
+
+
+
+
