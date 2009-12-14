@@ -3,7 +3,7 @@ title: GitHub Rebase 32
 layout: post
 ---
 
-Want to see your project on Rebase? Check out the "howto":http://rebase.github.com/howto.html! I also seem to be running short of interesting Git images as well. If you see any, and granted they don't contain Larry the Cable Guy, "shoot me a message":http://github.com/qrush.
+Want to see your project on Rebase? Check out the "howto":http://rebase.github.com/howto.html! I also seem to be running short of interesting Git images as well. If you see any, and given they don't contain Larry the Cable Guy, "shoot me a message":http://github.com/qrush.
 
 p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/ByronMillerGitWitMe1990.jpg!":http://www.youtube.com/watch?v=4NK3L4qMgvo
 
@@ -13,11 +13,13 @@ h3. Featured Project
 
 h3. Notably New Projects
 
-*"gitpan":http://github.com/gitpan* is a massive undertaking started by "schwern":http://github.com/schwern to provide a Git-powered alternative to "BackPAN":http://backpan.perl.org. The end result? Over *20,000* repos complete with tags for tarball downloads of the releases. This massive amount of Perl code has actually shifted the "languages graph":http://github.com/languages significantly, and now 14% of the code on GitHub is Perl. You also can read up about the whole "import process":http://use.perl.org/~schwern/journal/39972 if you're curious. Now if you need any CPAN package in Git form, just go to @http://github.com/gitpan/[name of package]@, such as "http://github.com/gitpan/Perl6-Doc":http://github.com/gitpan/Perl6-Doc.
-
 *"fix-me":http://github.com/seaofclouds/fix-me* is a contest for $100 to fix a CSS layout that tends to produce scrollbars when they're really not needed. "Check out the site":fixme.heroku.com to see the problem in Firefox, Safari, or IE. If you're brave and wise in the ways of the "box model":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg give it a shot! 
+
+*"mapdiff":http://github.com/refnum/mapdiff* is a visualizer for changes to "OpenStreetMap":http://www.openstreetmap.org/, a world-wide wiki map. The result is a "neat video":http://www.refnum.com/projects/osm/mapdiff/ that shows the change over time for roads added, changed, and removed. If you're up for some "D":http://www.digitalmars.com/d/ hacking, give this project a look. There's also some "other neat resources":http://www.refnum.com/projects/osm/index.html about OpenStreetMap on "refnum":http://github.com/refnum's site, such as a comparsions of the open system against Google Maps.
+
+*"mockfs":http://github.com/mockfs/mockfs* is a simple mock filesystem for use in unit tests in Python, much like "FakeFS":http://github.com/defunkt/fakefs in Ruby. It also works by replacing already known filesystem functions in the @os@ and @glob@ modules, and the project is even using "GitHub Pages":http://pages.github.com to publish some "Sphinx":http://sphinx.pocoo.org/ "docs of the project":http://mockfs.github.com/. Now you can "TATFT":http://rubyhoedown2008.confreaks.com/05-bryan-liles-lightning-talk-tatft-test-all-the-f-in-time.html with Python even faster since your FS calls don't actually hit your FS.
 
 *"jesus":http://github.com/dmathieu/jesus* is a web interface to "God":http://github.com/mojombo/god. Religious references aside, this is a seriously useful library that uses "Sinatra":http://github.com/sinatra/sinatra to serve up a web interface so you can "see just what's being monitored":http://cloud.github.com/downloads/dmathieu/jesus/jesus-0.0.1.png. The "README covers":http://42.dmathieu.com/jesus/ getting this set up and installed on your server. If you haven't seen what God can do for your important processes yet, be sure to "check that out too":http://god.rubyforge.org/.
 
-*"go-repl":http://github.com/vito/go-repl* is an interactive console for the highly-searchable "Go":http://golang.org/ language. But wait, isn't Go a compiled language? go-repl builds up the go source as your session goes on, and compiles and runs your input. If you need a sandbox to play around with Go, this is it. It's also a "decent example":http://github.com/vito/go-repl/blob/master/main.go of a usable library if you haven't read any Go code before.
+*"go-repl":http://github.com/vito/go-repl* is an interactive console for the highly-searchable "Go language":http://golang.org. But wait, isn't Go a compiled language? go-repl builds up the go source as your session goes on, and compiles and runs your input. If you need a sandbox to play around with Go, this is it. It's also a "decent example":http://github.com/vito/go-repl/blob/master/main.go of a usable library if you haven't read any Go code before.
 
