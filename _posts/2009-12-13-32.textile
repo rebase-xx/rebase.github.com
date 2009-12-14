@@ -1,0 +1,23 @@
+--- 
+title: GitHub Rebase 32
+layout: post
+---
+
+Want to see your project on Rebase? Check out the "howto":http://rebase.github.com/howto.html! I also seem to be running short of interesting Git images as well. If you see any, and granted they don't contain Larry the Cable Guy, "shoot me a message":http://github.com/qrush.
+
+p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/ByronMillerGitWitMe1990.jpg!":http://www.youtube.com/watch?v=4NK3L4qMgvo
+
+h3. Featured Project
+
+*"mootools-core":http://github.com/mootools/mootools-core* is an object-oriented JavaScript framework that has tons of helpful utilities for working with the language's various data types, AJAX, basic animations/effects , and more. It's got a huge "docs":http://mootools.net/docs/core site, a custom builder to include just the parts of the framework you need, and best of all, an upcoming plugin repository called "Forge":http://mootools.net/forge/ that's backed by GitHub. "Adding a plugin is simple":http://mootools.net/forge/how-to-add and encourages plenty of documentation: whip up a README, create a few standard folders and script headers, tag your release, and you're all set. To get started, you may want to peruse the "MooTorial":http://www.mootorial.com/wiki/mootorial or browse this "list of solid plugins":http://www.w3avenue.com/2009/07/28/list-of-really-useful-plugins-and-resources-for-mootools/.
+
+h3. Notably New Projects
+
+*"gitpan":http://github.com/gitpan* is a massive undertaking started by "schwern":http://github.com/schwern to provide a Git-powered alternative to "BackPAN":http://backpan.perl.org. The end result? Over *20,000* repos complete with tags for tarball downloads of the releases. This massive amount of Perl code has actually shifted the "languages graph":http://github.com/languages significantly, and now 14% of the code on GitHub is Perl. You also can read up about the whole "import process":http://use.perl.org/~schwern/journal/39972 if you're curious. Now if you need any CPAN package in Git form, just go to @http://github.com/gitpan/[name of package]@, such as "http://github.com/gitpan/Perl6-Doc":http://github.com/gitpan/Perl6-Doc.
+
+*"fix-me":http://github.com/seaofclouds/fix-me* is a contest for $100 to fix a CSS layout that tends to produce scrollbars when they're really not needed. "Check out the site":fixme.heroku.com to see the problem in Firefox, Safari, or IE. If you're brave and wise in the ways of the "box model":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg give it a shot! 
+
+*"jesus":http://github.com/dmathieu/jesus* is a web interface to "God":http://github.com/mojombo/god. Religious references aside, this is a seriously useful library that uses "Sinatra":http://github.com/sinatra/sinatra to serve up a web interface so you can "see just what's being monitored":http://cloud.github.com/downloads/dmathieu/jesus/jesus-0.0.1.png. The "README covers":http://42.dmathieu.com/jesus/ getting this set up and installed on your server. If you haven't seen what God can do for your important processes yet, be sure to "check that out too":http://god.rubyforge.org/.
+
+*"go-repl":http://github.com/vito/go-repl* is an interactive console for the highly-searchable "Go":http://golang.org/ language. But wait, isn't Go a compiled language? go-repl builds up the go source as your session goes on, and compiles and runs your input. If you need a sandbox to play around with Go, this is it. It's also a "decent example":http://github.com/vito/go-repl/blob/master/main.go of a usable library if you haven't read any Go code before.
+
