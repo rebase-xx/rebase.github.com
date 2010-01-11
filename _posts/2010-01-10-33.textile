@@ -1,0 +1,24 @@
+--- 
+title: GitHub Rebase 33
+layout: post
+---
+
+See the archives and more over at "rebase.github.com":http://rebase.github.com/! Want in for the "next rebase?":http://rebase.github.com/howto.html As you can see, I'm a bit web biased today, but I'd love to get more projects from other corners of the software world in here.
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/lets.jpg!:http://www.youtube.com/watch?v=1iC-BRHu7mk
+
+h3. Featured Project
+
+*"node.js":http://github.com/ry/node* is bringing server-side JavaScript back with a vengenance. In the words of "Simon Willison":http://simonwillison.net/2009/Nov/23/node/, it's a genuinely exciting project that brings an evented I/O server inspired by "EventMachine":http://rubyeventmachine.com/ and "Twisted":http://twistedmatrix.com/trac/ to the power of the blazing "Google V8":http://code.google.com/p/v8/ engine. Never heard of evented I/O based web servers? "Bunnies can explain it to you better than I can.":http://www.slideshare.net/simon/evented-io-based-web-servers-explained-using-bunnies Code speaks louder than words or rabbits, and you can check out "node_chat":http://github.com/ry/node_chat to see an example application. The project's "site":http://nodejs.org/ also has plenty of documentation and information to help you get started.
+
+h3. Notably New Projects
+
+*"friendly":http://github.com/jamesgolick/friendly* is a Ruby library that uses MySQL like it's a NoSQL document data store that was inspired by how "FriendFeed uses MySQL":http://bret.appspot.com/entry/how-friendfeed-uses-mysql. Behind the scenes, Friendly serializes attributes on your classes as JSON, and then maintains indexes for them in separate tables. This allows your data to be schemaless, so you can add or remove what you need on the fly without it taking hours to process migrations. Get your friendly on "here.":http://friendlyorm.com/
+
+*"phpunit":http://github.com/sebastianbergmann/phpunit* has been around for a while, but it "recently moved over":http://sebastian-bergmann.de/archives/876-PHPUnit-Development-Moved-to-GitHub.html to GitHub full time. This testing framework is "packed full of features":http://www.phpunit.de/wiki/Features, including mocking, code coverage analysis, and integration with "Selenium":http://seleniumhq.org/. There's a great set of "docs":http://www.phpunit.de/manual/3.4/en/automating-tests.html to help you get set up with testing your own site. PHP developers, you're now just a @git clone@ away from "TATFTing.":http://rubyhoedown2008.confreaks.com/05-bryan-liles-lightning-talk-tatft-test-all-the-f-in-time.html
+
+*"OpenFlowSharp":http://github.com/migueldeicaza/OpenFlowSharp* is a port of "OpenFlow":http://github.com/thefaj/OpenFlow, an open source CoverFlow API replacement to "MonoTouch":http://monotouch.net/, a port of the "Mono":http://www.mono-project.com/Main_Page project to the iPhone/iPod Touch. The end result looks "just as nice":http://apparentlogic.com/openflow/ and this project will bring a C# equivalent to match the original code. If you haven't seen MonoTouch, here's a perfect opportunity to jump in and get coding on your iPhone in a different language than Objective-C.
+
+*"oos":http://github.com/tsion/oos* is an operating system that uses the "ooc":http://github.com/blog/546-github-rebase-30 language predominantly. If you're into low level kernel hacking in semi-high level languages, this project is for you. Fire up your favorite emulator and get hacking!
+
+*"erlang_websocket":http://github.com/labria/erlang_websocket* is a "WebSocket":http://www.w3.org/TR/2009/WD-websockets-20091222/ implementation in Erlang and "MochiWeb":http://code.google.com/p/mochiweb/. If you haven't heard of it yet, WebSocket is a new specification that defines two-way communication between clients and servers, and is already convienently implemented in "Chrome":http://google.com/chrome. According to "Joe Armstrong":http://armstrongonsoftware.blogspot.com/2009/12/comet-is-dead-long-live-websockets.html, this spec is set to replace pretty much every other way of doing asynchronous communication on the web. This project lets you hook into the WebSocket API in Erlang, and comes with the obligatory chat app example as well.
