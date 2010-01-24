@@ -1,0 +1,24 @@
+--- 
+title: GitHub Rebase 35
+layout: post
+---
+
+Rebase: good for reorganizing commits, squashing down changesets, and repairing dentures.
+
+p=. !http://cloud.github.com/downloads/rebase/rebase.github.com/rebase_lqd.jpg!
+
+h3. Featured Project
+
+*"vanity":http://github.com/assaf/vanity* is an "experiment driven development":http://labnotes.org/2009/11/19/vanity-experiment-driven-development-for-rails/ framework for Ruby on Rails that uses "A/B Testing":http://en.wikipedia.org/wiki/A/B_testing to maximize how people interact with your site. The simple case is testing out switching out "two different page layouts":http://vanity.labnotes.org/index.html#intro to see which drives more signups. Set up and track metrics such as "referrals or acquisitions":http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html, and then check it out in the built in dashboard using "Redis":http://github.com/antirez/redis. It's also quite easy to extend and bring in other services, such as "Google Analytics":http://www.viget.com/extend/user-goal-tracking-in-rails-with-vanity-and-google-analytics/. Get started split testing your app "here":http://vanity.labnotes.org/.
+
+h3. Notably New Projects
+
+*"ptex":http://github.com/wdas/ptex* is a high-quality, production ready texture-mapping system created by "Walt Disney Animation Studios":http://www.disneyanimation.com/. This C++ library has just recently been released here on GitHub, after being used extensively in "BOLT":http://uk.imdb.com/title/tt0397892/ and integrated into Pixar's "RenderMan":https://renderman.pixar.com/. There's plenty of documentation about the file formats, API, and papers on the new texture mapping procedures used in the library on the "project's website":http://ptex.us/documentation.html. You can also see ptex in action with a high-resolution model of a T-Rex "here on YouTube":http://www.youtube.com/watch?v=GxNlAlOuQQQ or check out some "sample projects":http://ptex.us/samples.html.
+
+*"couch-crawler":http://github.com/clofresh/couch-crawler* is a search engine that's built on top of "CouchDB":http://couchdb.apache.org/ and uses "couch-lucene":http://github.com/rnewson/couchdb-lucene to index data. Created in an experiment to "index work intranet pages":http://syntacticbayleaves.com/2010/01/17/announcing-couch-crawler-a-couchdb-search-enginecrawler/, the neat part about this project is that there's no web tier between the browser and CouchDB. Couch serves up static HTML/CSS, and AJAX calls hit Couch directly and then the UI is built up with the help of "mustache.js":http://github.com/janl/mustache.js. The spider uses Python along with "httplib2":http://code.google.com/p/httplib2/ and "Beautiful Soup":http://www.crummy.com/software/BeautifulSoup/ to extract data. I'd love to see this apply to more than just corporate intranets, because knocking out a whole layer of glue code is a really neat idea.
+
+*"gitcharts":http://github.com/dabroz/gitcharts* is a small C# app that "generates a graph":http://dabroz.scythe.pl/upload/2010/01/chart.png for lines of code in a given git repository over time, and supports multiple projects in one repository. This would be really cool to see applied as a service built on top of "GitHub API":http://develop.github.com ...hint hint!
+
+*"base64ize":http://github.com/a2h/js/tree/gh-pages/base64ize/* is a small JavaScript-based site that applies "base64":http://en.wikipedia.org/wiki/Base64 to any file you drag onto it, courtesy of some new APIs in Firefox 3.6. This is just a fun hack, but definitely worth a bookmark if you're doing this often to images or data while testing. Also, the author's "blog post":http://a2h.uni.cc/wp/2010/01/11/base64ize/ shows off a part of the Mozilla developer world I haven't seen before: "hacks.mozilla.org":http://hacks.mozilla.org/. If you're interested in the bleeding edge of Firefox development, keep an eye on that site to see some of the recent developments coming out from that community.
+
+*"Open-Quark":http://github.com/levans/Open-Quark* is a framework for functional programming on top of the JVM that's recently been pushed to GitHub. Its "Wikipedia article":http://en.wikipedia.org/wiki/Quark_Framework describes the framework's underlying language, CAL, in as "a strongly typed, lazily evaluated functional language, supporting algebraic functions and data types with parametric polymorphism and type inferencing". "Code samples":http://openquark.org/Documents/tutorial_calintro.html of the language and how it interops with the JVM are available, along with plenty of "resources and videos":http://openquark.org/Open_Quark/Resources.html to get started using it with your applications.
