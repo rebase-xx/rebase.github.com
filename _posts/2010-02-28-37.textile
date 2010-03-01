@@ -1,0 +1,22 @@
+---
+title: GitHub Rebase 37
+layout: post
+---
+
+According to "git-checkout(1)":http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html: "You can make changes and create a new commit on top of a detached HEAD". "Git is your Friend, not a Foe":http://hades.name/blog/2010/01/22/git-your-friend-not-foe-vol-2-branches/ explains how this is possible.
+
+p=. !http://github.com/downloads/rebase/rebase.github.com/git.jpg!
+
+h3. Featured Project
+
+*"mediacore":http://github.com/simplestation/mediacore* is a audio and video content management system built on top of Python's "TurboGears":http://turbogears.org/ and "MooTools":http://github.com/mootools/mootools-core. If you're looking for a YouTube inspired site complete with comments, podcast publication for iTunes, and a great looking theme out of the box, look no further. It can handle video or audio posted on other sites such as Google Video or Vimeo, or you can distribute media straight from the site. Check out the "demo":http://getmediacore.com/demo or even "some":http://assistivetechnology.tv/ "existing":http://tmcyouth.com/media/ installs of the system in use to see what can be done with it. The project's "site":http://getmediacore.com/ and "documentation":http://getmediacore.com/docs can help you get started with your own MediaCore site.
+
+h3. Notably New Projects
+
+*"WebGLU":http://github.com/OneGeek/WebGLU* makes developing "WebGL":http://khronos.org/webgl/wiki/Main_Page applications fun. It provides a series of higher level functions that makes common rendering, animation, and shading techniques easier while still allowing developers to dip down into lower level APIs if necessary. There's plenty of "examples":http://github.com/OneGeek/WebGLU/tree/master/examples/ in the repo, and you can get started in only "25 lines":http://bjartr.blogspot.com/2010/01/remember-that-50-line-webgl-demo-now.html#more of JavaScript. The only catch is that you'll need the "3.7 Alpha":http://hacks.mozilla.org/2009/09/webgl-for-firefox/ of Firefox to try it out, and then "enable it":http://hacks.mozilla.org/2009/12/webgl-draft-released-today/ in about:config. One step closer to "no more flash!":http://www.slideshare.net/madrobby/i-cant-believe-its-not-flash
+
+*"serenity":http://github.com/kremso/serenity* is a Ruby library that helps with creating OpenOffice documents (.odt), complete with Firefly inspired examples. You can essentially think of it as ERB, just instead of text or HTML, you're producing an actual word processing document. The neat part is that you can use Ruby blocks and code inside of the .odt template. Clone away and browse the "showcase":http://github.com/kremso/serenity/tree/master/showcase/.
+
+*"grong":http://github.com/bortzmeyer/grong* is a "municipality in Nord-Trøndelag county, Norway":http://en.wikipedia.org/wiki/Grong and a Gross and ROugh Nameserver written in Go. GRONG can be used as an authoritative name server like "nsd":http://www.nlnetlabs.nl/projects/nsd/, and it comes with a few test built-in responders including an in-progress "AS112":http://public.as112.net/ implementation. It's in a very experimental state, but it's definitely a great example of what's possible with Go, since it uses "Goroutines":http://golang.org/doc/effective_go.html#goroutines and also "binary protocol reading and writing":http://groups.google.com/group/golang-nuts/browse_thread/thread/01ec4cf9cfa8e9e5.
+
+*"webgac":http://github.com/paulj/webgac* is a dependency manager much in the style of "Maven":http://maven.apache.org/, "Ivy":http://ant.apache.org/ivy, and maybe even a little bit of "RubyGems":http://rubygems.org for .NET. This project uses "WebDAV":http://www.webdav.org/ to store the dependencies and can be served up by Apache. From the developer perspective, you can use the project's VisualStudio Addin to configure it and set a custom Import MSBuild target that will pull in the binaries you need. For more info check out the README and this "blog post":http://www.lshift.net/blog/2010/02/27/webgac-minding-your-net-dependencies from the author about how it works.
