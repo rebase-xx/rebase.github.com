@@ -1,0 +1,31 @@
+---
+title: GitHub Rebase 38
+layout: post
+---
+
+Welcome to Rebase 38. Suggestions for projects to cover are always welcome, check out the criteria "here":http://rebase.github.com/howto.html. In the meantime, check out "this preview":http://lumberjaph.net/blog/index.php/2010/03/07/github-explorer-a-preview/ of some neat visualizations using the "GitHub API":http://develop.github.com of how developers are connected:
+
+p=. "!http://farm5.static.flickr.com/4019/4413528529_ed1326d072.jpg!":http://lumberjaph.net/blog/index.php/2010/03/07/github-explorer-a-preview/
+
+h3. Featured Project
+
+*"hiphop":http://github.com/facebook/hiphop-php* is "Facebook's":http://github.com/facebook is a PHP to C++ source code transformer that drops several language features such as @eval()@ in order to statically convert and compile it with @g++@. This gives Facebook a huge CPU reduction compared to using Apache and the Zend PHP engine, which really adds up when you have 260 billion page views per month and 30,000+ servers. ("More numbers here.":http://vimeo.com/9641036) The idea behind hiphop is that most high-traffic PHP sites eventually have parts that get rewritten to C/C++ for performance reasons, so this transformation engine allows more engineers to continue writing PHP instead of a lower level language. There's plenty of information on "the wiki":http://wiki.github.com/facebook/hiphop-php/ on how to get started and run it with nginx. Just keep in mind, "hiphop isn't for everyone":http://www.brandonsavage.net/hiphop-for-php-who-benefits-who-doesnt/, but it could help if you're running a large PHP app across multiple servers.
+
+h3. Notably New Projects
+
+*"Oileide":http://github.com/residuum/Oileide* is an auto-bookmarking library that can really help out with perma-linking pages that are very AJAX intensive. The gist is this: load in oileide's JS/CSS scripts, use the unobtrusive helpers to load content, and then the IDs you set on links will be autoloaded if someone reloads the page. From the README, if you have:
+
+<pre><code><p id="my-content"></p><a href="test.html"
+    rel="oileide[my-content]" id="mylink">Click Me</a>
+
+Clicking this link will add #mylink to the location in the
+browser, and load the body content of test.html into the 
+<p> with id="my-content"</code></pre>
+
+This library has no other dependencies (like "jQuery":http://github.com/jquery/jquery) but the idea could easily be extended or adapted. If you're doing any AJAX content that needs to be linked, check this project out.
+
+*"sleeping-wolf":http://github.com/xiongchiamiov/sleeping-wolf* is a "RubyGem":http://rubygems.org/gems/sleeping-wolf that synchronizes tickets in "ticgit":http://wiki.github.com/schacon/ticgit/, a simple git ticket tracking system that uses your local repository, with GitHub Issues. Sounds great, but it's _super-alpha_ and needs help from the community. Better documentation for ticgit would be great to have, perhaps a cute logo, and the actual code for synchronization (perhaps using the "Issues API?":http://develop.github.com/p/issues.html). This project could really help out GitHub users that like to keep local backups of their project issues, so get hacking!
+
+*"funfix":http://github.com/andreyvit/funfix* is a Python fixtures library that can whip up sample test data using Google App Engine's "Datastore API":http://code.google.com/appengine/docs/python/datastore/. Heavily inspired by Rails' "fixtures":http://api.rubyonrails.org/classes/Fixtures.html and "factory_girl":http://github.com/thoughtbot/factory_girl, funfix includes plenty of examples on its README about integrating it with your app, and some neat features including deriving fixtures from other fixtures. This project was "extracted":http://github.com/andreyvit/funfix/commit/06780efad4400e2f4a9de962255bf1d4946a963e from "CrashKit":http://crashkitapp.appspot.com/, which may be worth a look for those into 'Exception-driven development'.
+
+*"squawk":http://github.com/samuel/squawk* is a command line tool for parsing and running SQL-like queries on your log files, which is also written in Python. I know, that sounds scary, but it's really useful if you're not already a Unix wizard. You can run queries such as @SELECT COUNT(1) AS n, remote_addr FROM file WHERE status = 200@ on Apache or nginx log files, or even @GROUP BY status@ to get an aggregate count of all statuses your web server has dealt out. With subqueries and aggregates, this tool could definitely save you time when hunting in log files. This combined with "clarity":http://github.com/tobi/clarity for a web interface view to @grep@ and @tail -f@, this is pretty much a sysadmin's dream.
