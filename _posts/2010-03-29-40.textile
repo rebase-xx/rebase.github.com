@@ -5,7 +5,7 @@ layout: post
 
 Time for another GitHub Rebase, covering some of the latest and greatest projects that make their home here on GitHub. "Let me know":http://rebase.github.com/howto.html if yours should be on a future edition!
 
-p=. "!http://github.com/downloads/rebase/rebase.github.com/smk-git.jpg!"
+p=. !http://github.com/downloads/rebase/rebase.github.com/smk-git.jpg!
 
 h3. Featured Project
 
