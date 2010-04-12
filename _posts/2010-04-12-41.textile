@@ -1,0 +1,30 @@
+---
+title: GitHub Rebase 41
+layout: post
+---
+
+@git rebase --interactive --onto edition-41@
+
+Lots of projects this week folks, keep them coming! Like always I'm more than welcome to consider user submissions to Rebase. "Let me know about your projects!":http://rebase.github.com/howto.html
+
+p=. "!http://img.skitch.com/20100412-qh1gi2b187w6n8c9kjemq89kqa.png!":http://www.youtube.com/watch?v=k-7Ei4-yrsE
+
+h3. Featured Project
+
+*"jquery-ui":http://github.com/jquery/jquery-ui* is the offical jQuery UI component library, which has finally moved over to GitHub! jQuery UI includes helpful interactions and widgets that you can build into your web application on top of jQuery, including draggable and sortable components, and UI controls like the everpopular accordion to the always useful datepicker. Each control is accessibility friendly by downgrading to normal HTML and comes baked in with theme support via the "ThemeRoller":http://jqueryui.com/themeroller/. The "latest release":http://blog.jqueryui.com/2010/03/jquery-ui-18/, 1.8, brings plenty of cool features such as an "autocomplete widget":http://jqueryui.com/demos/autocomplete/, "easier custom widget creation":http://jqueryui.com/docs/Upgrade_Guide#Widget_Factory and a stunning reduction of 71% file size on the main JS file. Get started today with jQuery UI "here":http://jqueryui.com/docs/Getting_Started.
+
+h3. Notably New Projects
+
+*"gizzard":http://github.com/twitter/gizzard* is a Scala based framework that has been getting "a lot":http://engineering.twitter.com/2010/04/introducing-gizzard-framework-for.html "of attention":http://gigaom.com/2010/04/07/gizzard-anyone-twitter-offers-up-code-for-distributed-data/ this week. Gizzard looks at the problem of sharding massive amounts of data in a new way, by providing a framework for custom data stores (like a relational db, "Redis":http://github.com/antirez/redis, you name it) to hook in instead of writing everything from the ground up. The gist is: you bring the data storage, Gizzard brings all of the partitioning, sharding, replicating, and fault tolerance you need so you don't have to worry about it. For more information take a look at a sample application, "Rowz":http://github.com/nkallen/Rowz or the project's extensive "README":http://github.com/twitter/gizzard/blob/master/README.markdown.
+
+p=. "!http://img.skitch.com/20100412-b8f5mmr4u336u3i69d5ddi17jn.png!":http://www.zurb.com/blog_uploads/0000/0617/buttons-03.html
+
+*"awesome-buttons":http://github.com/gr2m/awesome-buttons* truly live up to its name by providing the buttons above using only CSS3 and RGBA. This is all done with some magic from <code>border-radius</code>, <code>box-shadow</code>, <code>text-shadow</code>, and even an overlay PNG for "browsers that suck":http://html5test.com/. By defining colors for shadows and borders in RGBA, browsers can then overlay the <code>background-color</code> and it looks great on any background. This is definitely a useful technique for designers and developers on GitHub!
+
+*"storevil":http://github.com/davidmfoley/storevil* is natural language testing framework for C#/.NET which is inspired greatly by "Cucmber":http://github.com/aslakhellesoy/cucumber. Instead of taking the "cuke4nuke":http://github.com/richardlawrence/Cuke4Nuke or "SpecFlow":http://www.specflow.org/ approach, storevil uses reflection as a means to associate steps in your feature files to code. It does support regular expression matching as well if you need it, a nice way to define extension methods for common helpers, and reducing duplication of multiple steps with content chaining. The "project's GitHub wiki":http://wiki.github.com/davidmfoley/storevil/ is packed with examples and information on how to use it with your project. "This blog post":http://anotherdave.wordpress.com/2010/02/23/storevil-intro/ from the author also serves as a great introduction.
+
+*"lightning":http://github.com/cldwalker/lightning* is a helper for command line/terminal junkies to cut down on excessive amounts of typing when typing out paths in <code>bash</code> or <code>zsh</code> by helping autocomplete files and folders across hundreds of directories. Lightning works by defining 'bolts' that contain globs of files and then combining those into functions that are sourced as first class members of your shell. Lightning comes packed with filesystem specific generators that help you set up your own bolts, and you can bake "your own":http://github.com/cldwalker/dotfiles/tree/master/.lightning/generators in for your specific needs. Definitely read up on "the basics":http://tagaholic.me/2010/04/08/lightning-speed-for-your-shell.html and "how to speed up":http://tagaholic.me/2010/04/09/lightning-speed-for-the-user.html your command line experience even further with it.
+
+p=. "!http://img.skitch.com/20100412-mf1ru8e4eap4g4p692ifec753h.png!":http://github.com/Treeki/Reggie
+
+*"Reggie":http://github.com/Treeki/Reggie* is a level editor for Super Mario Bros. Wii. Wait, what? I've heard of this with the older Mario titles but not with the latest. Pretty much all you need to run your own custom levels is an SD card and the original game disc. The level editor itself is cross platform thanks to "PyQT":http://wiki.python.org/moin/PyQt and contains every sprite, monster, and platform you'll need to wipe out your mustached heroes. Check out this video of "Level 1-1":http://www.destructoid.com/level-1-1-done-in-reggie-a-new-super-mario-bros-editor-155365.phtml or a "screencast tutorial":http://www.youtube.com/watch?v=g-WpmC8yWds of how to use Reggie.
