@@ -1,0 +1,28 @@
+---
+title: GitHub Rebase 41
+layout: post
+---
+
+Welcome back to GitHub Rebase! It's a .NET week here on the Rebase. If you've got a suggestion for themes or projects "let me know!":http://rebase.github.com/howto.html
+
+p=. "!http://github.com/downloads/rebase/rebase.github.com/tzd80021.jpg!":http://www.nano.gatech.edu/news/release.php?id=1475
+
+h3. Featured Project
+
+*"masstransit":http://github.com/phatboyg/MassTransit* is an open source Enterprise Service Bus written in C# that lives here on GitHub. You can think of it as high level library over MSMQ or ActiveMQ that allows you to implement everything from simple messaging to Publish/Subscribe. Not used to asynchronous messaging protocols? Check out this article about how "Starbucks does not use two-phase commit":http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html and then a sample implementation of the ideas presented in it and more on the "developer wiki":http://masstransit.pbworks.com/. Dive in further with plenty of code examples on "one of the author's blogs":http://blog.phatboyg.com/category/masstransit/ or "this ElegantCode podcast":http://elegantcode.com/2009/03/18/code-cast-25-masstransit/.
+
+h3. Notably (New) Projects
+
+*"RestSharp":http://github.com/johnsheehan/RestSharp* is a HTTP client that doesn't suck ("so they claim!":http://github.com/johnsheehan/RestSharp/blob/34d853bdc326ef1e301936001575068435844735/README.markdown) It's seriously packed with features: automatic XML/JSON serialization, multi-part form support, various authentication schemes, and that's just half of it. There's plenty of documentation on the project's "GitHub wiki":http://wiki.github.com/johnsheehan/RestSharp/getting-started and even more "blog posts":http://wiki.github.com/johnsheehan/RestSharp/recommended-usage to get you started.
+
+p=. "!http://github.com/downloads/rebase/rebase.github.com/PullRebase.jpg!":http://github.com/spdr870/gitextensions
+
+*"gitextensions":http://github.com/spdr870/gitextensions* is a Visual Studio plugin that helps you use Git in your IDE. This project has a ton of seriously useful "graphical views of Git":http://code.google.com/p/gitextensions/. View your commit log, format patches, pull changes, and integrate your favorite mergetool, and more. You could also bring these helpers up in Explorer or through a "shell that doesn't suck":http://www.mingw.org/. Watch "some screencasts":http://www.youtube.com/user/spdr870 if you're not convinced yet.
+
+*"fluentcassandra":http://github.com/managedfusion/fluentcassandra* is a C# Cassandra client library that's just getting underway. Haven't started with Cassandra yet? You can get "jump started here":http://www.coderjournal.com/2010/03/cassandra-jump-start-for-the-windows-developer/ and of course there's plenty of documentation on the "project site":http://cassandra.apache.org/. Not of lot of documentation (that I could find) yet, but the library seems to be well tested and is ready for you to try it out!
+
+p=. "!http://github.com/downloads/rebase/rebase.github.com/TicGit_Screenshot1.png!":http://www.eqqon.com/index.php/TicGit.net
+
+*"GitSharp":http://github.com/henon/GitSharp* is a native Windows and Mono-compatible implementation of Git. Much like "grit":http://github.com/mojombo/grit or "ruby-git":http://github.com/schacon/ruby-git this project allows you to "interact with Git through code":http://www.eqqon.com/index.php/GitSharp/Examples, by querying your status, making commits, cloning repos, and so on. Check out more examples and projects that integrate with GitSharp, like "TicGit.net":http://www.eqqon.com/index.php/TicGit.net, on the "project's website":http://www.eqqon.com/index.php/GitSharp.
+
+*"fluentmigrator":http://github.com/schambers/fluentmigrator* brings the power of ActiveRecord migrations to your .NET project. Hook it up with "rake":http://github.com/jimweirich/rake or "NAnt":http://nant.sourceforge.net/ (or just the built in console app), and stop tossing around SQL scripts to create your database. Added benefits: keep your database history in version control, seed your database with records, and make sure new developers on your project (or you!) can get your project setup in no time. There's a great tutorial "here":http://rauhski.blogspot.com/2010/03/getting-started-with-fluentmigrator.html about setting this up with your solution and a template to help generate migrations.
