@@ -1,0 +1,29 @@
+---
+title: GitHub Rebase 43
+layout: post
+---
+
+<code>github-rebase(1) – Forward-port awesome projects to the updated upstream head</code>
+
+p=. !http://img.skitch.com/20100518-mej9w6q8sxacpibdp2sar4rdut.png!
+
+h3. Featured Project
+
+*"memcached":http://github.com/memcached/memcached* is the battle tested in-memory key/value store that helps power GitHub among countless other sites and makes its home here. With memcached, simplicity is key. Value data limits are low (1 MB), there's only a few storage and retrival commands, a simple stats interface, and that's it. You could just use telnet to query a memcached server, but there's "plenty of clients":http://code.google.com/p/memcached/wiki/Clients in your favorite language. A real community of innovation has grown up around this software, and provides great features like "consistent hashing":http://www.last.fm/user/RJ/journal/2007/04/10/rz_libketama_-_a_consistent_hashing_algo_for_memcache_clients, "clustering":http://www.slideshare.net/gear6memcached/implementing-high-availability-services-for-memcached-1911077, and "replication":http://jayant7k.blogspot.com/2009/04/memcached-replication.html. Memcached definitely does "caching and only caching extremely well":http://en.wikipedia.org/wiki/Unix_philosophy, and it shows. Download the latest release "here":http://memcached.org/, and peruse the "FAQ":http://code.google.com/p/memcached/wiki/FAQ before you get started.
+
+h3. Notably (New) Projects
+
+p=. !http://img.skitch.com/20100518-b4cbpryp7g7b3jsutc9rpdg7jf.png!
+
+*"jsnes":http://github.com/bfirsh/jsnes* is a JavaScript NES emulator "that's about to ruin your productivity":http://benfirshman.com/projects/jsnes/. I know, you didn't want to play Mega Man, Contra, or Tetris right now but now you don't have a choice. This is a functioning NES emulator using JavaScript and the <code>canvas</code> tag, and according to the author is a "shameless" port of "vNES":http://www.virtualnes.com/ that runs in your browser. It works best in Google Chrome, and it does work in a few other browsers, but Chrome will be your best bet. If you're a JavaScript fan, perusing the code is worth it, especially for gems like the "emulation of a CPU":http://github.com/bfirsh/jsnes/blob/master/js/cpu.js.
+
+*"gleebox":http://github.com/glee/glee* is about to change your browsing experience. It's a Firefox add-on and Chrome extension that adds an interactive command bar to your browser. Call it up with <code>g</code>, and start typing to search for words. The real power here is that you can search on HTML elements and even use jQuery selectors. There's also great page commands, such as <code>!read</code> to use the "Readability":http://lab.arc90.com/experiments/readability/ project or <code>!shorten</code> to get a tiny URL. With themes and plenty of extensibility baked in, there's no reason why you shouldn't be using this right now. "Check out the manual":http://thegleebox.com/manual.html for more info.
+
+p=. !http://img.skitch.com/20100518-erhcr11biibxgxquys6ta1sbxq.png!
+
+*"CityLights":http://github.com/Ronze/CityLights* is a visualization of Thom Yorke's song "Harrowdown Hill":http://www.youtube.com/watch?v=AS37ZSYOwTA using the Java based "Processing":http://processing.org/ framework. Make sure your browser has a Java plugin, and you can watch the lights of NYC beat along with the song. This is a really neat example of what's possible with Processing, especially involving sound and timeline syncing. Bonus points for the first to port this to "processing.js":http://processingjs.org/! Watch the visualization "here":http://runemadsen.com/work/22-city-lights.
+
+*"trinidad":http://github.com/calavera/trinidad* is Spanish for "trinity", a small island nation in the Caribbean, and of course, a RubyGem that allows you to run any Rack based application through Apache Tomcat. If you need to deploy your Ruby app in the middle of Java warzone, this is a great option now that the "Glassfish gem is basically abandoned":http://www.infoq.com/news/2010/04/glassfish-gem-alternatives-jruby. This also takes a different approach than the "Warbler":http://github.com/nicksieger/warbler project, which will package your app as a <code>.war</code> file that most Java-based servers can handle. Instead, you just need to <code>jgem install trinidad</code>, then run <code>jruby -S trinidad</code> where your rackup is. Done. "Configuration info and more":http://wiki.github.com/calavera/trinidad/ is on the project's wiki.
+
+<hr />
+As always, "suggestions for projects are welcome":http://rebase.github.com/howto.html! If you've sent me suggestions chances are you need to fill out your README more, or you're queued up for a future article. For the next edition I'd love to focus on neat open source desktop apps, so if you know of any feel free to send them along.
